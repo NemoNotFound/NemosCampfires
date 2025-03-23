@@ -1,6 +1,6 @@
-package com.nemonotfound.nemoscampfires.datagen;
+package com.nemonotfound.nemos.campfires.datagen;
 
-import com.nemonotfound.nemoscampfires.block.ModBlocks;
+import com.nemonotfound.nemos.campfires.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.core.HolderLookup;

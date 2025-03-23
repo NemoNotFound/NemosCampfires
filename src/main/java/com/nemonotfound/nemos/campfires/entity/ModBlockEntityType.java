@@ -1,9 +1,9 @@
-package com.nemonotfound.nemoscampfires.entity;
+package com.nemonotfound.nemos.campfires.entity;
 
-import com.nemonotfound.nemoscampfires.block.ModBlocks;
+import com.nemonotfound.nemos.campfires.block.ModBlocks;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 
-import static com.nemonotfound.nemoscampfires.NemosCampfires.LOGGER;
+import static com.nemonotfound.nemos.campfires.NemosCampfires.LOGGER;
 
 public class ModBlockEntityType {
 

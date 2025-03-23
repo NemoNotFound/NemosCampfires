@@ -16,19 +16,19 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.nemonotfound.nemoscampfires.NemosCampfires"
+			"com.nemonotfound.nemos.campfires.NemosCampfires"
 		],
 		"client": [
-			"com.nemonotfound.nemoscampfires.NemosCampfiresClient"
+			"com.nemonotfound.nemos.campfires.NemosCampfiresClient"
 		],
 		"fabric-datagen": [
-			"com.nemonotfound.nemoscampfires.NemosCampfiresDataGenerator"
+			"com.nemonotfound.nemos.campfires.NemosCampfiresDataGenerator"
 		]
 	},
 	"depends": {
 		"fabricloader": ">=0.16.9",
 		"minecraft": [
-			"~1.21.4"
+			">=1.21.5-rc.1"
 		],
 		"java": ">=21",
 		"fabric-api": "*"

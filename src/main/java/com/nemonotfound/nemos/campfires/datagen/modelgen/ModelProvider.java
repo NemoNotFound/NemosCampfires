@@ -1,20 +1,24 @@
-package com.nemonotfound.nemoscampfires.datagen.modelgen;
+package com.nemonotfound.nemos.campfires.datagen.modelgen;
 
-import com.nemonotfound.nemoscampfires.block.ModBlocks;
+import com.nemonotfound.nemos.campfires.block.ModBlocks;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
+import net.minecraft.client.data.models.MultiVariant;
 import net.minecraft.client.data.models.blockstates.MultiVariantGenerator;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.data.models.blockstates.PropertyDispatch;
+import net.minecraft.client.renderer.block.model.VariantMutator;
+import net.minecraft.core.Direction;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 
-import static net.minecraft.client.data.models.BlockModelGenerators.createBooleanModelDispatch;
-import static net.minecraft.client.data.models.BlockModelGenerators.createHorizontalFacingDispatchAlt;
+import static net.minecraft.client.data.models.BlockModelGenerators.*;
 
 public class ModelProvider extends FabricModelProvider {
+
+    private static final PropertyDispatch<VariantMutator> ROTATION_HORIZONTAL_FACING_ALT = PropertyDispatch.modify(BlockStateProperties.HORIZONTAL_FACING).select(Direction.SOUTH, NOP).select(Direction.WEST, Y_ROT_90).select(Direction.NORTH, Y_ROT_180).select(Direction.EAST, Y_ROT_270);
 
     public ModelProvider(FabricDataOutput output) {
         super(output);
@@ -39,19 +43,19 @@ public class ModelProvider extends FabricModelProvider {
     }
 
     public final void createCampfires(BlockModelGenerators blockModelGenerators, Block campfireVariant, Block soulCampfireVariant) {
-        ResourceLocation campfireResourceLocation = ModModelTemplates.CAMPFIRE.create(campfireVariant, ModTextureMapping.campfire(campfireVariant, Blocks.CAMPFIRE), blockModelGenerators.modelOutput);
-        ResourceLocation soulCampfireResourceLocation = ModModelTemplates.CAMPFIRE.create(soulCampfireVariant, ModTextureMapping.soulCampfire(soulCampfireVariant, campfireVariant, Blocks.SOUL_CAMPFIRE), blockModelGenerators.modelOutput);
-        ResourceLocation campfireOffResourceLocation = ModModelTemplates.CAMPFIRE_OFF.createWithSuffix(campfireVariant, "_off", ModTextureMapping.campfireOff(campfireVariant), blockModelGenerators.modelOutput);
+        var cmapfireMultiVariant = plainVariant(ModModelTemplates.CAMPFIRE.create(campfireVariant, ModTextureMapping.campfire(campfireVariant, Blocks.CAMPFIRE), blockModelGenerators.modelOutput));
+        var soulCampfireMultiVariant =  plainVariant(ModModelTemplates.CAMPFIRE.create(soulCampfireVariant, ModTextureMapping.soulCampfire(soulCampfireVariant, campfireVariant, Blocks.SOUL_CAMPFIRE), blockModelGenerators.modelOutput));
+        var campfireOffMultiVariant =  plainVariant(ModModelTemplates.CAMPFIRE_OFF.createWithSuffix(campfireVariant, "_off", ModTextureMapping.campfireOff(campfireVariant), blockModelGenerators.modelOutput));
 
-        createCampfire(blockModelGenerators, campfireVariant, campfireResourceLocation, campfireOffResourceLocation);
-        createCampfire(blockModelGenerators, soulCampfireVariant, soulCampfireResourceLocation, campfireOffResourceLocation);
+        createCampfire(blockModelGenerators, campfireVariant, cmapfireMultiVariant, campfireOffMultiVariant);
+        createCampfire(blockModelGenerators, soulCampfireVariant, soulCampfireMultiVariant, campfireOffMultiVariant);
     }
 
-    private static void createCampfire(BlockModelGenerators blockModelGenerators, Block campfireVariant, ResourceLocation campfireResourceLocation, ResourceLocation campfireOffResourceLocation) {
+    private static void createCampfire(BlockModelGenerators blockModelGenerators, Block campfireVariant, MultiVariant campfireMultiVariant, MultiVariant campfireOffMultiVariant) {
         blockModelGenerators.registerSimpleFlatItemModel(campfireVariant.asItem());
         blockModelGenerators.blockStateOutput
-                .accept(MultiVariantGenerator.multiVariant(campfireVariant)
-                        .with(createBooleanModelDispatch(BlockStateProperties.LIT, campfireResourceLocation, campfireOffResourceLocation))
-                        .with(createHorizontalFacingDispatchAlt()));
+                .accept(MultiVariantGenerator.dispatch(campfireVariant)
+                        .with(createBooleanModelDispatch(BlockStateProperties.LIT, campfireMultiVariant, campfireOffMultiVariant))
+                        .with(ROTATION_HORIZONTAL_FACING_ALT));
     }
 }

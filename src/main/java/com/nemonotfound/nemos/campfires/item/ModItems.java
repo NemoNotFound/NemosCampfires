@@ -1,13 +1,13 @@
-package com.nemonotfound.nemoscampfires.item;
+package com.nemonotfound.nemos.campfires.item;
 
-import com.nemonotfound.nemoscampfires.block.ModBlocks;
+import com.nemonotfound.nemos.campfires.block.ModBlocks;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.component.ItemContainerContents;
 import net.minecraft.world.level.block.Block;
 
-import static com.nemonotfound.nemoscampfires.NemosCampfires.LOGGER;
+import static com.nemonotfound.nemos.campfires.NemosCampfires.LOGGER;
 
 public class ModItems {
 

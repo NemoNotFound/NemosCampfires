@@ -1,4 +1,4 @@
-package com.nemonotfound.nemoscampfires.item;
+package com.nemonotfound.nemos.campfires.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -11,8 +11,8 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 
-import static com.nemonotfound.nemoscampfires.NemosCampfires.LOGGER;
-import static com.nemonotfound.nemoscampfires.NemosCampfires.MOD_ID;
+import static com.nemonotfound.nemos.campfires.NemosCampfires.LOGGER;
+import static com.nemonotfound.nemos.campfires.NemosCampfires.MOD_ID;
 
 public class ModCreativeModeTabs {
 

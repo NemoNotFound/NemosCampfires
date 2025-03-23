@@ -1,14 +1,14 @@
-package com.nemonotfound.nemoscampfires;
+package com.nemonotfound.nemos.campfires;
 
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static com.nemonotfound.nemoscampfires.block.ModBlocks.registerBlocks;
-import static com.nemonotfound.nemoscampfires.entity.ModBlockEntityType.registerBlockEntityTypes;
-import static com.nemonotfound.nemoscampfires.item.ModCreativeModeTabs.registerCreativeModeTabs;
-import static com.nemonotfound.nemoscampfires.item.ModItems.registerItems;
+import static com.nemonotfound.nemos.campfires.block.ModBlocks.registerBlocks;
+import static com.nemonotfound.nemos.campfires.entity.ModBlockEntityType.registerBlockEntityTypes;
+import static com.nemonotfound.nemos.campfires.item.ModCreativeModeTabs.registerCreativeModeTabs;
+import static com.nemonotfound.nemos.campfires.item.ModItems.registerItems;
 
 public class NemosCampfires implements ModInitializer {
 

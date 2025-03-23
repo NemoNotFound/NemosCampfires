@@ -1,13 +1,13 @@
-package com.nemonotfound.nemoscampfires;
+package com.nemonotfound.nemos.campfires;
 
-import com.nemonotfound.nemoscampfires.datagen.BlockTagProvider;
-import com.nemonotfound.nemoscampfires.datagen.LootTableProvider;
-import com.nemonotfound.nemoscampfires.datagen.ModRecipeProvider;
-import com.nemonotfound.nemoscampfires.datagen.langdatagen.EnglishLanguageProvider;
-import com.nemonotfound.nemoscampfires.datagen.langdatagen.GermanLanguageProvider;
-import com.nemonotfound.nemoscampfires.datagen.langdatagen.RussianLanguageProvider;
-import com.nemonotfound.nemoscampfires.datagen.langdatagen.UkranianLanguageProvider;
-import com.nemonotfound.nemoscampfires.datagen.modelgen.ModelProvider;
+import com.nemonotfound.nemos.campfires.datagen.BlockTagProvider;
+import com.nemonotfound.nemos.campfires.datagen.LootTableProvider;
+import com.nemonotfound.nemos.campfires.datagen.ModRecipeProvider;
+import com.nemonotfound.nemos.campfires.datagen.langdatagen.EnglishLanguageProvider;
+import com.nemonotfound.nemos.campfires.datagen.langdatagen.GermanLanguageProvider;
+import com.nemonotfound.nemos.campfires.datagen.langdatagen.RussianLanguageProvider;
+import com.nemonotfound.nemos.campfires.datagen.langdatagen.UkranianLanguageProvider;
+import com.nemonotfound.nemos.campfires.datagen.modelgen.ModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 

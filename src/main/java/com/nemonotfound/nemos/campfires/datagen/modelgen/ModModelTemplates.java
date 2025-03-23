@@ -1,4 +1,4 @@
-package com.nemonotfound.nemoscampfires.datagen.modelgen;
+package com.nemonotfound.nemos.campfires.datagen.modelgen;
 
 import net.minecraft.client.data.models.model.ModelTemplate;
 import net.minecraft.client.data.models.model.TextureSlot;

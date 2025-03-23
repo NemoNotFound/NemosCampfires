@@ -1,4 +1,4 @@
-package com.nemonotfound.nemoscampfires.block;
+package com.nemonotfound.nemos.campfires.block;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -13,8 +13,8 @@ import net.minecraft.world.level.material.MapColor;
 
 import java.util.function.Function;
 
-import static com.nemonotfound.nemoscampfires.NemosCampfires.LOGGER;
-import static com.nemonotfound.nemoscampfires.NemosCampfires.MOD_ID;
+import static com.nemonotfound.nemos.campfires.NemosCampfires.LOGGER;
+import static com.nemonotfound.nemos.campfires.NemosCampfires.MOD_ID;
 import static net.minecraft.world.level.block.Blocks.*;
 
 public class ModBlocks {
