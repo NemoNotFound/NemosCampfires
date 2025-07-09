@@ -1,14 +1,14 @@
-![Mod](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/minecraft_projects/titles/png/mod.png?raw=true)
+![Nemo's Campfires](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/minecraft_projects/titles/png/nemos_campfires.png?raw=true)
 <br><br>
 
 # Description
 ...
 
-For more information and to see how to configure the components check the [wiki](https://github.com/NemoNotFound/MOD/wiki).
+For more information and to see how to configure the components check the [wiki](https://github.com/NemoNotFound/nemos_campfires/wiki).
 
 # Downloads
-- [CurseForge](https://curseforge.com/minecraft/mc-mods/MOD)
-- [Modrinth](https://modrinth.com/mod/MOD)
+- [CurseForge](https://curseforge.com/minecraft/mc-mods/nemos-campfires)
+- [Modrinth](https://modrinth.com/mod/nemos_campfires)
 <br><br>
 
 # Join my Discord!
@@ -17,7 +17,7 @@ For more information and to see how to configure the components check the [wiki]
 
 # Support Me
 I love to create mods for Minecraft and wish to live off it one day, so I hope you like what I do. <br>
-Either way feel free to give me your feedback and suggestions, either on my Discord or the [discussions](https://github.com/NemoNotFound/MOD/discussions/) :)
+Either way feel free to give me your feedback and suggestions, either on my Discord or the [discussions](https://github.com/NemoNotFound/NemosCampfires/discussions/) :)
 <br><br>
 
 [![ko-fi donation](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nemonotfound)
