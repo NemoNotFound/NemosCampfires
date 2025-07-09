@@ -1,5 +1,4 @@
-# Changelog v1.0
+# Changelog v2.0
 
-## Additions
-
-## Changes
+## Breaking Changes
+- Updated modId to nemos_campfires instead of nemos-campfires

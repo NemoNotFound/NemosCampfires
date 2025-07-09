@@ -9,8 +9,8 @@ base {
 }
 
 mixin {
-    config("${mod_id}.mixins.json")
-    config("${mod_id}.forge.mixins.json")
+    //config("${mod_id}.mixins.json")
+    //config("${mod_id}.forge.mixins.json")
 }
 
 tasks.named("assemble").configure {
@@ -19,7 +19,7 @@ tasks.named("assemble").configure {
 
 jar {
     manifest {
-        attributes["MixinConfigs"] = "${mod_id}.mixins.json"
+        //attributes["MixinConfigs"] = "${mod_id}.mixins.json"
     }
 }
 

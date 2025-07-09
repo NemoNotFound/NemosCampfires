@@ -16,16 +16,15 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.nemonotfound.examplemod.FabricExampleMod"
+            "com.devnemo.nemos.campfires.FabricNemosCampfires"
+        ],
+        "client": [
+            "com.devnemo.nemos.campfires.FabricNemosCampfiresClient"
         ],
         "fabric-datagen": [
-            "com.nemonotfound.examplemod.DataGenerator"
+            "com.devnemo.nemos.campfires.DataGenerator"
         ]
     },
-    "mixins": [
-        "${mod_id}.mixins.json",
-        "${mod_id}.fabric.mixins.json"
-    ],
     "depends": {
         "fabricloader": ">=${fabric_loader_version}",
         "fabric-api": "*",
