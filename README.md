@@ -2,13 +2,13 @@
 <br><br>
 
 # Description
-...
+**Nemo's Campfires** adds a unique campfire for every log type!
 
-For more information and to see how to configure the components check the [wiki](https://github.com/NemoNotFound/nemos_campfires/wiki).
+For more information and to see how to configure the components check the [wiki](https://wiki.devnemo.com/projects/minecraft-mods/nemos-campfires/general).
 
 # Downloads
 - [CurseForge](https://curseforge.com/minecraft/mc-mods/nemos-campfires)
-- [Modrinth](https://modrinth.com/mod/nemos_campfires)
+- [Modrinth](https://modrinth.com/mod/nemos-campfires)
 <br><br>
 
 # Join my Discord!
