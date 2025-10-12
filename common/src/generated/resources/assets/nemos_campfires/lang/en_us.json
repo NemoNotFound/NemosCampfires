@@ -18,5 +18,6 @@
   "block.nemos_campfires.spruce_campfire": "Spruce Campfire",
   "block.nemos_campfires.spruce_soul_campfire": "Spruce Soul Campfire",
   "block.nemos_campfires.warped_campfire": "Warped Campfire",
-  "block.nemos_campfires.warped_soul_campfire": "Warped Soul Campfire"
+  "block.nemos_campfires.warped_soul_campfire": "Warped Soul Campfire",
+  "itemGroup.nemos_campfires": "Nemo's Campfires"
 }

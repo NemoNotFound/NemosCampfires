@@ -7,6 +7,8 @@ import net.minecraft.core.HolderLookup;
 
 import java.util.concurrent.CompletableFuture;
 
+import static com.devnemo.nemos.campfires.Constants.MOD_ID;
+
 public class EnglishLanguageProvider extends FabricLanguageProvider {
 
     public EnglishLanguageProvider(FabricDataOutput dataOutput, CompletableFuture<HolderLookup.Provider> registryLookup) {
@@ -35,5 +37,6 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE.get(), "Spruce Soul Campfire");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_CAMPFIRE.get(), "Warped Campfire");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE.get(), "Warped Soul Campfire");
+        translationBuilder.add("itemGroup." + MOD_ID, "Nemo's Campfires");
     }
 }

@@ -1,3 +1,5 @@
+import net.darkhax.curseforgegradle.TaskPublishCurseForge
+
 plugins {
     id 'multiloader-loader'
     id 'fabric-loom'
@@ -17,7 +19,7 @@ fabricApi {
 }
 
 base {
-    archivesName = "${mod_id_jar}-Fabric"
+    archivesName = "${mod_id_jar}-fabric"
 }
 
 loom {
@@ -54,3 +56,15 @@ loom {
 }
 
 sourceSets.main.resources { srcDir project.project(':common').file('src/generated/resources/').getAbsolutePath() }
+
+tasks.register('publishCurseForge', TaskPublishCurseForge) {
+    dependsOn(tasks.remapJar)
+    apiToken = System.getenv("CURSEFORGE_TOKEN")
+
+    def projectId = findProperty('curseforge_project')
+
+    def mainFile = upload(projectId, tasks.remapJar.archiveFile)
+    mainFile.changelog = file('../changelog.md')
+    mainFile.displayName = findProperty('mod_name') + ' Fabric ' + findProperty('version')
+    mainFile.releaseType = 'release'
+}

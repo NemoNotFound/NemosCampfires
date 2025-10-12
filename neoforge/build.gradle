@@ -1,3 +1,5 @@
+import net.darkhax.curseforgegradle.TaskPublishCurseForge
+
 plugins {
     id 'multiloader-loader'
     id 'net.neoforged.moddev'
@@ -43,3 +45,17 @@ neoForge {
 }
 
 sourceSets.main.resources { srcDir project.project(':common').file('src/generated/resources/').getAbsolutePath() }
+
+tasks.register('publishCurseForge', TaskPublishCurseForge) {
+    group = "publishing"
+    dependsOn(tasks.jar)
+    apiToken = System.getenv("CURSEFORGE_TOKEN")
+
+    def projectId = findProperty('curseforge_project')
+
+    def mainFile = upload(projectId, tasks.jar.archiveFile)
+    mainFile.changelog = file('../changelog.md')
+    mainFile.displayName = findProperty('mod_name') + ' NeoForge ' + findProperty('version')
+    mainFile.releaseType = 'release'
+    mainFile.addModLoader("NeoForge")
+}
