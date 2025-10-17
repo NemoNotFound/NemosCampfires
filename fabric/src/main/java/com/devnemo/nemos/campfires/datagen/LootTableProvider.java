@@ -80,5 +80,38 @@ public class LootTableProvider extends FabricBlockLootTableProvider {
         this.add(NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
                 this.applyExplosionCondition(block, LootItem.lootTableItem(Items.SOUL_SOIL)
                         .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
+        this.add(NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.COPPER_NUGGET)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0f))))));
+        this.add(NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.COPPER_NUGGET)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0f))))));
+        this.add(NemosCampfiresBlocks.CHERRY_COPPER_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.COPPER_NUGGET)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0f))))));
+        this.add(NemosCampfiresBlocks.PALE_OAK_COPPER_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.COPPER_NUGGET)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0f))))));
+        this.add(NemosCampfiresBlocks.CRIMSON_COPPER_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.COPPER_NUGGET)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0f))))));
+        this.add(NemosCampfiresBlocks.DARK_OAK_COPPER_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.COPPER_NUGGET)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0f))))));
+        this.add(NemosCampfiresBlocks.JUNGLE_COPPER_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.COPPER_NUGGET)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0f))))));
+        this.add(NemosCampfiresBlocks.MANGROVE_COPPER_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.COPPER_NUGGET)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0f))))));
+        this.add(NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.COPPER_NUGGET)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0f))))));
+        this.add(NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.COPPER_NUGGET)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0f))))));
+        this.add(NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.COPPER_NUGGET)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0f))))));
     }
 }

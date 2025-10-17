@@ -48,11 +48,25 @@ public class NemosCampfiresRecipeProvider extends FabricRecipeProvider {
                 createSoulCampfireRecipe(NemosCampfiresBlocks.MANGROVE_SOUL_CAMPFIRE.get(), ItemTags.MANGROVE_LOGS);
                 createSoulCampfireRecipe(NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE.get(), ItemTags.SPRUCE_LOGS);
                 createSoulCampfireRecipe(NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE.get(), ItemTags.WARPED_STEMS);
+
+                createCopperCampfireRecipe(NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE.get(), ItemTags.ACACIA_LOGS);
+                createCopperCampfireRecipe(NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE.get(), ItemTags.BIRCH_LOGS);
+                createCopperCampfireRecipe(NemosCampfiresBlocks.CHERRY_COPPER_CAMPFIRE.get(), ItemTags.CHERRY_LOGS);
+                createCopperCampfireRecipe(NemosCampfiresBlocks.PALE_OAK_COPPER_CAMPFIRE.get(), ItemTags.PALE_OAK_LOGS);
+                createCopperCampfireRecipe(NemosCampfiresBlocks.CRIMSON_COPPER_CAMPFIRE.get(), ItemTags.CRIMSON_STEMS);
+                createCopperCampfireRecipe(NemosCampfiresBlocks.DARK_OAK_COPPER_CAMPFIRE.get(), ItemTags.DARK_OAK_LOGS);
+                createCopperCampfireRecipe(NemosCampfiresBlocks.JUNGLE_COPPER_CAMPFIRE.get(), ItemTags.JUNGLE_LOGS);
+                createCopperCampfireRecipe(NemosCampfiresBlocks.MANGROVE_COPPER_CAMPFIRE.get(), ItemTags.MANGROVE_LOGS);
+                createCopperCampfireRecipe(NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get(), ItemTags.OAK_LOGS);
+                createCopperCampfireRecipe(NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get(), ItemTags.SPRUCE_LOGS);
+                createCopperCampfireRecipe(NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get(), ItemTags.WARPED_STEMS);
             }
 
             private void createCampfireRecipe(Block result, TagKey<Item> log) {
                 this.shaped(RecipeCategory.DECORATIONS, result)
-                        .define('L', log).define('S', Items.STICK).define('C', ItemTags.COALS)
+                        .define('L', log)
+                        .define('S', Items.STICK)
+                        .define('C', ItemTags.COALS)
                         .pattern(" S ").pattern("SCS").pattern("LLL")
                         .unlockedBy("has_stick", has(Items.STICK))
                         .unlockedBy("has_coal", has(ItemTags.COALS))
@@ -60,10 +74,27 @@ public class NemosCampfiresRecipeProvider extends FabricRecipeProvider {
                         .save(this.output);
             }
 
+            private void createCopperCampfireRecipe(Block result, TagKey<Item> log) {
+                this.shaped(RecipeCategory.DECORATIONS, result)
+                        .define('L', log)
+                        .define('S', Items.STICK)
+                        .define('#', Items.COPPER_INGOT)
+                        .pattern(" S ")
+                        .pattern("S#S")
+                        .pattern("LLL")
+                        .unlockedBy("has_copper_ingot", has(Items.COPPER_INGOT))
+                        .group("copper_campfires")
+                        .save(this.output);
+            }
+
             private void createSoulCampfireRecipe(Block result, TagKey<Item> log) {
                 this.shaped(RecipeCategory.DECORATIONS, result)
-                        .define('L', log).define('S', Items.STICK).define('#', ItemTags.SOUL_FIRE_BASE_BLOCKS)
-                        .pattern(" S ").pattern("S#S").pattern("LLL")
+                        .define('L', log)
+                        .define('S', Items.STICK)
+                        .define('#', ItemTags.SOUL_FIRE_BASE_BLOCKS)
+                        .pattern(" S ")
+                        .pattern("S#S")
+                        .pattern("LLL")
                         .unlockedBy("has_soul_sand", has(ItemTags.SOUL_FIRE_BASE_BLOCKS))
                         .group("soul_campfires")
                         .save(this.output);

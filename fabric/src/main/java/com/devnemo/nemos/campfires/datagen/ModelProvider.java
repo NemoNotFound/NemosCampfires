@@ -38,6 +38,17 @@ public class ModelProvider extends FabricModelProvider {
         createCampfires(blockStateModelGenerator, NemosCampfiresBlocks.MANGROVE_CAMPFIRE.get(), NemosCampfiresBlocks.MANGROVE_SOUL_CAMPFIRE.get());
         createCampfires(blockStateModelGenerator, NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get(), NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE.get());
         createCampfires(blockStateModelGenerator, NemosCampfiresBlocks.WARPED_CAMPFIRE.get(), NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE.get());
+        createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.ACACIA_CAMPFIRE.get());
+        createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.BIRCH_CAMPFIRE.get());
+        createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.CHERRY_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.CHERRY_CAMPFIRE.get());
+        createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.PALE_OAK_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.PALE_OAK_CAMPFIRE.get());
+        createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.CRIMSON_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.CRIMSON_CAMPFIRE.get());
+        createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.DARK_OAK_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.DARK_OAK_CAMPFIRE.get());
+        createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.JUNGLE_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.JUNGLE_CAMPFIRE.get());
+        createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.MANGROVE_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.MANGROVE_CAMPFIRE.get());
+        createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get(), Blocks.CAMPFIRE);
+        createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get());
+        createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.WARPED_CAMPFIRE.get());
     }
 
     @Override
@@ -51,6 +62,13 @@ public class ModelProvider extends FabricModelProvider {
 
         createCampfire(blockModelGenerators, campfireVariant, cmapfireMultiVariant, campfireOffMultiVariant);
         createCampfire(blockModelGenerators, soulCampfireVariant, soulCampfireMultiVariant, campfireOffMultiVariant);
+    }
+
+    public final void createCopperCampfire(BlockModelGenerators blockModelGenerators, Block copperCampfireVariant, Block campfireVariant) {
+        var cmapfireMultiVariant = plainVariant(NemosCampfiresModelTemplates.CAMPFIRE.create(copperCampfireVariant, NemosCampfiresTextureMapping.copperCampfire(copperCampfireVariant, campfireVariant), blockModelGenerators.modelOutput));
+        var campfireOffMultiVariant =  plainVariant(NemosCampfiresModelTemplates.CAMPFIRE_OFF.createWithSuffix(copperCampfireVariant, "_off", NemosCampfiresTextureMapping.campfireOff(copperCampfireVariant), blockModelGenerators.modelOutput));
+
+        createCampfire(blockModelGenerators, copperCampfireVariant, cmapfireMultiVariant, campfireOffMultiVariant);
     }
 
     private static void createCampfire(BlockModelGenerators blockModelGenerators, Block campfireVariant, MultiVariant campfireMultiVariant, MultiVariant campfireOffMultiVariant) {

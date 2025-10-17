@@ -2,8 +2,10 @@ package com.devnemo.nemos.campfires.client.data.models.model;
 
 import net.minecraft.client.data.models.model.TextureMapping;
 import net.minecraft.client.data.models.model.TextureSlot;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 
+import static com.devnemo.nemos.campfires.Constants.MOD_ID;
 import static net.minecraft.client.data.models.model.TextureMapping.getBlockTexture;
 
 public class NemosCampfiresTextureMapping {
@@ -12,6 +14,14 @@ public class NemosCampfiresTextureMapping {
         return new TextureMapping()
                 .put(TextureSlot.LIT_LOG, getBlockTexture(campfireVariant, "_log_lit"))
                 .put(TextureSlot.FIRE, getBlockTexture(campfire, "_fire"))
+                .put(NemosCampfiresTextureSlot.LOG, getBlockTexture(campfireVariant, "_log"))
+                .put(TextureSlot.PARTICLE, getBlockTexture(campfireVariant, "_log"));
+    }
+
+    public static TextureMapping copperCampfire(Block copperCampfireVariant, Block campfireVariant) {
+        return new TextureMapping()
+                .put(TextureSlot.LIT_LOG, getBlockTexture(copperCampfireVariant, "_log_lit"))
+                .put(TextureSlot.FIRE, ResourceLocation.fromNamespaceAndPath(MOD_ID, "block/copper_campfire_fire"))
                 .put(NemosCampfiresTextureSlot.LOG, getBlockTexture(campfireVariant, "_log"))
                 .put(TextureSlot.PARTICLE, getBlockTexture(campfireVariant, "_log"));
     }

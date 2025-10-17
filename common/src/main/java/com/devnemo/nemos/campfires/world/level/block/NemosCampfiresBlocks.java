@@ -39,6 +39,17 @@ public class NemosCampfiresBlocks {
     public static final Supplier<Block> MANGROVE_SOUL_CAMPFIRE = register("mangrove_soul_campfire", properties -> new CampfireBlock(false, 2, properties), createCampfireProperties(MANGROVE_LOG.defaultMapColor(), 10));
     public static final Supplier<Block> SPRUCE_SOUL_CAMPFIRE = register("spruce_soul_campfire", properties -> new CampfireBlock(false, 2, properties), createCampfireProperties(SPRUCE_LOG.defaultMapColor(), 10));
     public static final Supplier<Block> WARPED_SOUL_CAMPFIRE = register("warped_soul_campfire", properties -> new CampfireBlock(false, 2, properties), createCampfireProperties(WARPED_STEM.defaultMapColor(), 10));
+    public static final Supplier<Block> ACACIA_COPPER_CAMPFIRE = register("acacia_copper_campfire", properties -> new CampfireBlock(false, 1, properties), createCampfireProperties(ACACIA_LOG.defaultMapColor(), 15));
+    public static final Supplier<Block> BIRCH_COPPER_CAMPFIRE = register("birch_copper_campfire", properties -> new CampfireBlock(false, 1, properties), createCampfireProperties(BIRCH_LOG.defaultMapColor(), 15));
+    public static final Supplier<Block> CHERRY_COPPER_CAMPFIRE = register("cherry_copper_campfire", properties -> new CampfireBlock(false, 1, properties), createCampfireProperties(CHERRY_LOG.defaultMapColor(), 15));
+    public static final Supplier<Block> PALE_OAK_COPPER_CAMPFIRE = register("pale_oak_copper_campfire", properties -> new CampfireBlock(false, 1, properties), createCampfireProperties(PALE_OAK_LOG.defaultMapColor(), 15));
+    public static final Supplier<Block> CRIMSON_COPPER_CAMPFIRE = register("crimson_copper_campfire", properties -> new CampfireBlock(false, 1, properties), createCampfireProperties(CRIMSON_STEM.defaultMapColor(), 15));
+    public static final Supplier<Block> DARK_OAK_COPPER_CAMPFIRE = register("dark_oak_copper_campfire", properties -> new CampfireBlock(false, 1, properties), createCampfireProperties(DARK_OAK_LOG.defaultMapColor(), 15));
+    public static final Supplier<Block> JUNGLE_COPPER_CAMPFIRE = register("jungle_copper_campfire", properties -> new CampfireBlock(false, 1, properties), createCampfireProperties(JUNGLE_LOG.defaultMapColor(), 15));
+    public static final Supplier<Block> MANGROVE_COPPER_CAMPFIRE = register("mangrove_copper_campfire", properties -> new CampfireBlock(false, 1, properties), createCampfireProperties(MANGROVE_LOG.defaultMapColor(), 15));
+    public static final Supplier<Block> OAK_COPPER_CAMPFIRE = register("oak_copper_campfire", properties -> new CampfireBlock(false, 1, properties), createCampfireProperties(OAK_LOG.defaultMapColor(), 15));
+    public static final Supplier<Block> SPRUCE_COPPER_CAMPFIRE = register("spruce_copper_campfire", properties -> new CampfireBlock(false, 1, properties), createCampfireProperties(SPRUCE_LOG.defaultMapColor(), 15));
+    public static final Supplier<Block> WARPED_COPPER_CAMPFIRE = register("warped_copper_campfire", properties -> new CampfireBlock(false, 1, properties), createCampfireProperties(WARPED_STEM.defaultMapColor(), 15));
 
     private static BlockBehaviour.Properties createCampfireProperties(MapColor mapColor, int lightValue) {
         return BlockBehaviour.Properties.of()

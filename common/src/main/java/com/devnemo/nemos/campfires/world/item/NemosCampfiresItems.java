@@ -32,6 +32,17 @@ public class NemosCampfiresItems {
     public static final Supplier<Item> MANGROVE_SOUL_CAMPFIRE = registerCampfireBlockItem("mangrove_soul_campfire", NemosCampfiresBlocks.MANGROVE_SOUL_CAMPFIRE);
     public static final Supplier<Item> SPRUCE_SOUL_CAMPFIRE = registerCampfireBlockItem("spruce_soul_campfire", NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE);
     public static final Supplier<Item> WARPED_SOUL_CAMPFIRE = registerCampfireBlockItem("warped_soul_campfire", NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE);
+    public static final Supplier<Item> ACACIA_COPPER_CAMPFIRE = registerCampfireBlockItem("acacia_copper_campfire", NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE);
+    public static final Supplier<Item> BIRCH_COPPER_CAMPFIRE = registerCampfireBlockItem("birch_copper_campfire", NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE);
+    public static final Supplier<Item> CHERRY_COPPER_CAMPFIRE = registerCampfireBlockItem("cherry_copper_campfire", NemosCampfiresBlocks.CHERRY_COPPER_CAMPFIRE);
+    public static final Supplier<Item> PALE_OAK_COPPER_CAMPFIRE = registerCampfireBlockItem("pale_oak_copper_campfire", NemosCampfiresBlocks.PALE_OAK_COPPER_CAMPFIRE);
+    public static final Supplier<Item> CRIMSON_COPPER_CAMPFIRE = registerCampfireBlockItem("crimson_copper_campfire", NemosCampfiresBlocks.CRIMSON_COPPER_CAMPFIRE);
+    public static final Supplier<Item> DARK_OAK_COPPER_CAMPFIRE = registerCampfireBlockItem("dark_oak_copper_campfire", NemosCampfiresBlocks.DARK_OAK_COPPER_CAMPFIRE);
+    public static final Supplier<Item> JUNGLE_COPPER_CAMPFIRE = registerCampfireBlockItem("jungle_copper_campfire", NemosCampfiresBlocks.JUNGLE_COPPER_CAMPFIRE);
+    public static final Supplier<Item> MANGROVE_COPPER_CAMPFIRE = registerCampfireBlockItem("mangrove_copper_campfire", NemosCampfiresBlocks.MANGROVE_COPPER_CAMPFIRE);
+    public static final Supplier<Item> OAK_COPPER_CAMPFIRE = registerCampfireBlockItem("oak_copper_campfire", NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE);
+    public static final Supplier<Item> SPRUCE_COPPER_CAMPFIRE = registerCampfireBlockItem("spruce_copper_campfire", NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE);
+    public static final Supplier<Item> WARPED_COPPER_CAMPFIRE = registerCampfireBlockItem("warped_copper_campfire", NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE);
 
     public static void init() {}
 

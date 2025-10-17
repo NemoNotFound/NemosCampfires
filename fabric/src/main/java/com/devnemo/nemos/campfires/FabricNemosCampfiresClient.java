@@ -29,5 +29,16 @@ public class FabricNemosCampfiresClient implements ClientModInitializer {
         BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.MANGROVE_SOUL_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
         BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
         BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.CHERRY_COPPER_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.PALE_OAK_COPPER_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.CRIMSON_COPPER_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.DARK_OAK_COPPER_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.JUNGLE_COPPER_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.MANGROVE_COPPER_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
     }
 }
