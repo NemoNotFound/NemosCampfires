@@ -16,35 +16,46 @@ public class NemosCampfiresCreativeModeTabs {
             .icon(() -> new ItemStack(NemosCampfiresItems.SPRUCE_CAMPFIRE.get()))
             .displayItems((parameters, output) -> {
                 output.accept(NemosCampfiresItems.OAK_COPPER_CAMPFIRE.get());
+                output.accept(NemosCampfiresItems.OAK_REDSTONE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.SPRUCE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.SPRUCE_COPPER_CAMPFIRE.get());
+                output.accept(NemosCampfiresItems.SPRUCE_REDSTONE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.SPRUCE_SOUL_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.BIRCH_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.BIRCH_COPPER_CAMPFIRE.get());
+                output.accept(NemosCampfiresItems.BIRCH_REDSTONE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.BIRCH_SOUL_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.JUNGLE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.JUNGLE_COPPER_CAMPFIRE.get());
+                output.accept(NemosCampfiresItems.JUNGLE_REDSTONE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.JUNGLE_SOUL_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.ACACIA_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.ACACIA_COPPER_CAMPFIRE.get());
+                output.accept(NemosCampfiresItems.ACACIA_REDSTONE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.ACACIA_SOUL_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.DARK_OAK_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.DARK_OAK_COPPER_CAMPFIRE.get());
+                output.accept(NemosCampfiresItems.DARK_OAK_REDSTONE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.DARK_OAK_SOUL_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.MANGROVE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.MANGROVE_COPPER_CAMPFIRE.get());
+                output.accept(NemosCampfiresItems.MANGROVE_REDSTONE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.MANGROVE_SOUL_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.CHERRY_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.CHERRY_COPPER_CAMPFIRE.get());
+                output.accept(NemosCampfiresItems.CHERRY_REDSTONE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.CHERRY_SOUL_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.PALE_OAK_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.PALE_OAK_COPPER_CAMPFIRE.get());
+                output.accept(NemosCampfiresItems.PALE_OAK_REDSTONE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.PALE_OAK_SOUL_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.CRIMSON_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.CRIMSON_COPPER_CAMPFIRE.get());
+                output.accept(NemosCampfiresItems.CRIMSON_REDSTONE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.CRIMSON_SOUL_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.WARPED_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.WARPED_COPPER_CAMPFIRE.get());
+                output.accept(NemosCampfiresItems.WARPED_REDSTONE_CAMPFIRE.get());
                 output.accept(NemosCampfiresItems.WARPED_SOUL_CAMPFIRE.get());
             })
             .build());

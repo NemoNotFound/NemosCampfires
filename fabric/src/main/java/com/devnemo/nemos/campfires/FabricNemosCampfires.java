@@ -41,5 +41,16 @@ public class FabricNemosCampfires implements ModInitializer {
         BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get());
         BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get());
         BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get());
+        BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.ACACIA_REDSTONE_CAMPFIRE.get());
+        BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.BIRCH_REDSTONE_CAMPFIRE.get());
+        BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.CHERRY_REDSTONE_CAMPFIRE.get());
+        BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.PALE_OAK_REDSTONE_CAMPFIRE.get());
+        BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.CRIMSON_REDSTONE_CAMPFIRE.get());
+        BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.DARK_OAK_REDSTONE_CAMPFIRE.get());
+        BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.JUNGLE_REDSTONE_CAMPFIRE.get());
+        BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.MANGROVE_REDSTONE_CAMPFIRE.get());
+        BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get());
+        BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get());
+        BlockEntityType.CAMPFIRE.addSupportedBlock(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get());
     }
 }

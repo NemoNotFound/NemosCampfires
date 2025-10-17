@@ -1,8 +1,4 @@
-# Changelog v2.1
+# Changelog v2.2
 
 ## Additions
-- Added Copper Campfires
-
-## Changes
-- Renamed Campfire to Oak Campfire
-- Renamed Soul Campfire to Oak Campfire
+- Added Redstone Campfires

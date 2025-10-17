@@ -19,9 +19,17 @@ public class NemosCampfiresTextureMapping {
     }
 
     public static TextureMapping copperCampfire(Block copperCampfireVariant, Block campfireVariant) {
+        return campfireWithCustomFire(copperCampfireVariant, campfireVariant, "copper_campfire_fire");
+    }
+
+    public static TextureMapping redstoneCampfire(Block copperCampfireVariant, Block campfireVariant) {
+        return campfireWithCustomFire(copperCampfireVariant, campfireVariant, "redstone_campfire_fire");
+    }
+
+    private static TextureMapping campfireWithCustomFire(Block copperCampfireVariant, Block campfireVariant, String firePath) {
         return new TextureMapping()
                 .put(TextureSlot.LIT_LOG, getBlockTexture(copperCampfireVariant, "_log_lit"))
-                .put(TextureSlot.FIRE, ResourceLocation.fromNamespaceAndPath(MOD_ID, "block/copper_campfire_fire"))
+                .put(TextureSlot.FIRE, ResourceLocation.fromNamespaceAndPath(MOD_ID, "block/" + firePath))
                 .put(NemosCampfiresTextureSlot.LOG, getBlockTexture(campfireVariant, "_log"))
                 .put(TextureSlot.PARTICLE, getBlockTexture(campfireVariant, "_log"));
     }

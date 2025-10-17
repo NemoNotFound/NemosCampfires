@@ -44,5 +44,16 @@ public class EventHandler {
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.ACACIA_REDSTONE_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.BIRCH_REDSTONE_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.CHERRY_REDSTONE_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.PALE_OAK_REDSTONE_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.CRIMSON_REDSTONE_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.DARK_OAK_REDSTONE_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.JUNGLE_REDSTONE_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.MANGROVE_REDSTONE_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get());
     }
 }

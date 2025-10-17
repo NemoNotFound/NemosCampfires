@@ -60,6 +60,18 @@ public class NemosCampfiresRecipeProvider extends FabricRecipeProvider {
                 createCopperCampfireRecipe(NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get(), ItemTags.OAK_LOGS);
                 createCopperCampfireRecipe(NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get(), ItemTags.SPRUCE_LOGS);
                 createCopperCampfireRecipe(NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get(), ItemTags.WARPED_STEMS);
+
+                createRedstoneCampfireRecipe(NemosCampfiresBlocks.ACACIA_REDSTONE_CAMPFIRE.get(), ItemTags.ACACIA_LOGS);
+                createRedstoneCampfireRecipe(NemosCampfiresBlocks.BIRCH_REDSTONE_CAMPFIRE.get(), ItemTags.BIRCH_LOGS);
+                createRedstoneCampfireRecipe(NemosCampfiresBlocks.CHERRY_REDSTONE_CAMPFIRE.get(), ItemTags.CHERRY_LOGS);
+                createRedstoneCampfireRecipe(NemosCampfiresBlocks.PALE_OAK_REDSTONE_CAMPFIRE.get(), ItemTags.PALE_OAK_LOGS);
+                createRedstoneCampfireRecipe(NemosCampfiresBlocks.CRIMSON_REDSTONE_CAMPFIRE.get(), ItemTags.CRIMSON_STEMS);
+                createRedstoneCampfireRecipe(NemosCampfiresBlocks.DARK_OAK_REDSTONE_CAMPFIRE.get(), ItemTags.DARK_OAK_LOGS);
+                createRedstoneCampfireRecipe(NemosCampfiresBlocks.JUNGLE_REDSTONE_CAMPFIRE.get(), ItemTags.JUNGLE_LOGS);
+                createRedstoneCampfireRecipe(NemosCampfiresBlocks.MANGROVE_REDSTONE_CAMPFIRE.get(), ItemTags.MANGROVE_LOGS);
+                createRedstoneCampfireRecipe(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get(), ItemTags.OAK_LOGS);
+                createRedstoneCampfireRecipe(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get(), ItemTags.SPRUCE_LOGS);
+                createRedstoneCampfireRecipe(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), ItemTags.WARPED_STEMS);
             }
 
             private void createCampfireRecipe(Block result, TagKey<Item> log) {
@@ -84,6 +96,19 @@ public class NemosCampfiresRecipeProvider extends FabricRecipeProvider {
                         .pattern("LLL")
                         .unlockedBy("has_copper_ingot", has(Items.COPPER_INGOT))
                         .group("copper_campfires")
+                        .save(this.output);
+            }
+
+            private void createRedstoneCampfireRecipe(Block result, TagKey<Item> log) {
+                this.shaped(RecipeCategory.DECORATIONS, result)
+                        .define('L', log)
+                        .define('S', Items.STICK)
+                        .define('#', Items.REDSTONE)
+                        .pattern(" S ")
+                        .pattern("S#S")
+                        .pattern("LLL")
+                        .unlockedBy("has_redstone", has(Items.REDSTONE))
+                        .group("redstone_campfires")
                         .save(this.output);
             }
 
