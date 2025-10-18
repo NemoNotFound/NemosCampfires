@@ -1,4 +1,7 @@
-# Changelog v2.2
+# Changelog v2.3
 
 ## Additions
-- Added Redstone Campfires
+- Added Lapis Lazuli Campfires
+
+## Fixes
+- Fixed model using wrong texture for turned off campfires

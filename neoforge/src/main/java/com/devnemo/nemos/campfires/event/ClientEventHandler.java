@@ -57,5 +57,16 @@ public class ClientEventHandler {
         ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
         ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
         ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.CHERRY_LAPIS_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.PALE_OAK_LAPIS_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.CRIMSON_LAPIS_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.DARK_OAK_LAPIS_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.JUNGLE_LAPIS_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.MANGROVE_LAPIS_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
+        ItemBlockRenderTypes.setRenderLayer(NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get(), ChunkSectionLayer.CUTOUT);
     }
 }

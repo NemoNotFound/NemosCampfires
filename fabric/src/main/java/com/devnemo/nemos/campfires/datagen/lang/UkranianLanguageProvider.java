@@ -61,6 +61,6 @@ public class UkranianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get(), "Дубове редстоунове багаття");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get(), "Смерекове редстоунове багаття");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), "Химерне редстоунове багаття");
-
+        //TODO: Add Lapis
     }
 }

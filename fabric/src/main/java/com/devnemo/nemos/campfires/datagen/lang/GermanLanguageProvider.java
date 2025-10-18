@@ -60,5 +60,6 @@ public class GermanLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get(), "Eichenredstonelagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get(), "Fichtenredstonelagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), "Wirrredstonelagerfeuer");
+        //TODO: Add Lapis
     }
 }

@@ -62,6 +62,17 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get(), "Oak Redstone Campfire");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get(), "Spruce Redstone Campfire");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), "Warped Redstone Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get(), "Acacia Lapis Lazuli Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get(), "Birch Lapis Lazuli Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.CHERRY_LAPIS_CAMPFIRE.get(), "Cherry Lapis Lazuli Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.PALE_OAK_LAPIS_CAMPFIRE.get(), "Pale Oak Lapis Lazuli Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.CRIMSON_LAPIS_CAMPFIRE.get(), "Crimson Lapis Lazuli Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.DARK_OAK_LAPIS_CAMPFIRE.get(), "Dark Oak Lapis Lazuli Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.JUNGLE_LAPIS_CAMPFIRE.get(), "Jungle Lapis Lazuli Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.MANGROVE_LAPIS_CAMPFIRE.get(), "Mangrove Lapis Lazuli Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get(), "Oak Lapis Lazuli Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get(), "Spruce Lapis Lazuli Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get(), "Warped Lapis Lazuli Campfire");
         translationBuilder.add("itemGroup." + MOD_ID, "Nemo's Campfires");
     }
 }

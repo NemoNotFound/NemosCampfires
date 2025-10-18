@@ -59,6 +59,6 @@ public class RussianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get(), "Дубовый редстоуновый костёр");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get(), "Еловый редстоуновый костёр");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), "Искажённый редстоуновый костёр");
-
+        //TODO: Add Lapis
     }
 }

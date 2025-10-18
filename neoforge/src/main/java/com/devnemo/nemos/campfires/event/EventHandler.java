@@ -55,5 +55,16 @@ public class EventHandler {
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.CHERRY_LAPIS_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.PALE_OAK_LAPIS_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.CRIMSON_LAPIS_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.DARK_OAK_LAPIS_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.JUNGLE_LAPIS_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.MANGROVE_LAPIS_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get());
     }
 }

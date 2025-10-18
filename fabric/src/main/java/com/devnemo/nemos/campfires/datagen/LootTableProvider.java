@@ -146,5 +146,38 @@ public class LootTableProvider extends FabricBlockLootTableProvider {
         this.add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
                 this.applyExplosionCondition(block, LootItem.lootTableItem(Items.REDSTONE)
                         .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
+        this.add(NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.LAPIS_LAZULI)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
+        this.add(NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.LAPIS_LAZULI)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
+        this.add(NemosCampfiresBlocks.CHERRY_LAPIS_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.LAPIS_LAZULI)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
+        this.add(NemosCampfiresBlocks.PALE_OAK_LAPIS_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.LAPIS_LAZULI)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
+        this.add(NemosCampfiresBlocks.CRIMSON_LAPIS_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.LAPIS_LAZULI)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
+        this.add(NemosCampfiresBlocks.DARK_OAK_LAPIS_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.LAPIS_LAZULI)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
+        this.add(NemosCampfiresBlocks.JUNGLE_LAPIS_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.LAPIS_LAZULI)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
+        this.add(NemosCampfiresBlocks.MANGROVE_LAPIS_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.LAPIS_LAZULI)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
+        this.add(NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.LAPIS_LAZULI)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
+        this.add(NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.LAPIS_LAZULI)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
+        this.add(NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get(), (Block block) -> this.createSilkTouchDispatchTable(block,
+                this.applyExplosionCondition(block, LootItem.lootTableItem(Items.LAPIS_LAZULI)
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))))));
     }
 }

@@ -26,6 +26,10 @@ public class NemosCampfiresTextureMapping {
         return campfireWithCustomFire(copperCampfireVariant, campfireVariant, "redstone_campfire_fire");
     }
 
+    public static TextureMapping lapisCampfire(Block copperCampfireVariant, Block campfireVariant) {
+        return campfireWithCustomFire(copperCampfireVariant, campfireVariant, "lapis_campfire_fire");
+    }
+
     private static TextureMapping campfireWithCustomFire(Block copperCampfireVariant, Block campfireVariant, String firePath) {
         return new TextureMapping()
                 .put(TextureSlot.LIT_LOG, getBlockTexture(copperCampfireVariant, "_log_lit"))

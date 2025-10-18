@@ -58,7 +58,18 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(NemosCampfiresBlocks.MANGROVE_REDSTONE_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get())
-                .add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get());
+                .add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.CHERRY_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.PALE_OAK_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.CRIMSON_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.DARK_OAK_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.JUNGLE_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.MANGROVE_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get());
 
         valueLookupBuilder(BlockTags.CAMPFIRES)
                 .add(NemosCampfiresBlocks.ACACIA_CAMPFIRE.get())
@@ -102,6 +113,17 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(NemosCampfiresBlocks.MANGROVE_REDSTONE_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get())
-                .add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get());
+                .add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.CHERRY_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.PALE_OAK_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.CRIMSON_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.DARK_OAK_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.JUNGLE_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.MANGROVE_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get());
     }
 }

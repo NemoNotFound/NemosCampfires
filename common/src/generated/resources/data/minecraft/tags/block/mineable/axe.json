@@ -41,6 +41,17 @@
     "nemos_campfires:mangrove_redstone_campfire",
     "nemos_campfires:oak_redstone_campfire",
     "nemos_campfires:spruce_redstone_campfire",
-    "nemos_campfires:warped_redstone_campfire"
+    "nemos_campfires:warped_redstone_campfire",
+    "nemos_campfires:acacia_lapis_campfire",
+    "nemos_campfires:birch_lapis_campfire",
+    "nemos_campfires:cherry_lapis_campfire",
+    "nemos_campfires:pale_oak_lapis_campfire",
+    "nemos_campfires:crimson_lapis_campfire",
+    "nemos_campfires:dark_oak_lapis_campfire",
+    "nemos_campfires:jungle_lapis_campfire",
+    "nemos_campfires:mangrove_lapis_campfire",
+    "nemos_campfires:oak_lapis_campfire",
+    "nemos_campfires:spruce_lapis_campfire",
+    "nemos_campfires:warped_lapis_campfire"
   ]
 }

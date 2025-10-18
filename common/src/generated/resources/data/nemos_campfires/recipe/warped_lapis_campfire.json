@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "redstone_campfires",
+  "key": {
+    "#": "minecraft:lapis_lazuli",
+    "L": "#minecraft:warped_stems",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " S ",
+    "S#S",
+    "LLL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "nemos_campfires:warped_lapis_campfire"
+  }
+}

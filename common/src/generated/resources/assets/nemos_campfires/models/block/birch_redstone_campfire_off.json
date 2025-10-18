@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/campfire_off",
   "textures": {
-    "log": "nemos_campfires:block/birch_redstone_campfire_log",
-    "particle": "nemos_campfires:block/birch_redstone_campfire_log"
+    "log": "nemos_campfires:block/birch_campfire_log",
+    "particle": "nemos_campfires:block/birch_campfire_log"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_campfire",
+  "textures": {
+    "fire": "nemos_campfires:block/lapis_campfire_fire",
+    "lit_log": "nemos_campfires:block/spruce_lapis_campfire_log_lit",
+    "log": "nemos_campfires:block/spruce_campfire_log",
+    "particle": "nemos_campfires:block/spruce_campfire_log"
+  }
+}

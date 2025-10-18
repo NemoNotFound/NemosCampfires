@@ -72,6 +72,18 @@ public class NemosCampfiresRecipeProvider extends FabricRecipeProvider {
                 createRedstoneCampfireRecipe(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get(), ItemTags.OAK_LOGS);
                 createRedstoneCampfireRecipe(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get(), ItemTags.SPRUCE_LOGS);
                 createRedstoneCampfireRecipe(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), ItemTags.WARPED_STEMS);
+
+                createLapisCampfireRecipe(NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get(), ItemTags.ACACIA_LOGS);
+                createLapisCampfireRecipe(NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get(), ItemTags.BIRCH_LOGS);
+                createLapisCampfireRecipe(NemosCampfiresBlocks.CHERRY_LAPIS_CAMPFIRE.get(), ItemTags.CHERRY_LOGS);
+                createLapisCampfireRecipe(NemosCampfiresBlocks.PALE_OAK_LAPIS_CAMPFIRE.get(), ItemTags.PALE_OAK_LOGS);
+                createLapisCampfireRecipe(NemosCampfiresBlocks.CRIMSON_LAPIS_CAMPFIRE.get(), ItemTags.CRIMSON_STEMS);
+                createLapisCampfireRecipe(NemosCampfiresBlocks.DARK_OAK_LAPIS_CAMPFIRE.get(), ItemTags.DARK_OAK_LOGS);
+                createLapisCampfireRecipe(NemosCampfiresBlocks.JUNGLE_LAPIS_CAMPFIRE.get(), ItemTags.JUNGLE_LOGS);
+                createLapisCampfireRecipe(NemosCampfiresBlocks.MANGROVE_LAPIS_CAMPFIRE.get(), ItemTags.MANGROVE_LOGS);
+                createLapisCampfireRecipe(NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get(), ItemTags.OAK_LOGS);
+                createLapisCampfireRecipe(NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get(), ItemTags.SPRUCE_LOGS);
+                createLapisCampfireRecipe(NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get(), ItemTags.WARPED_STEMS);
             }
 
             private void createCampfireRecipe(Block result, TagKey<Item> log) {
@@ -108,6 +120,19 @@ public class NemosCampfiresRecipeProvider extends FabricRecipeProvider {
                         .pattern("S#S")
                         .pattern("LLL")
                         .unlockedBy("has_redstone", has(Items.REDSTONE))
+                        .group("redstone_campfires")
+                        .save(this.output);
+            }
+
+            private void createLapisCampfireRecipe(Block result, TagKey<Item> log) {
+                this.shaped(RecipeCategory.DECORATIONS, result)
+                        .define('L', log)
+                        .define('S', Items.STICK)
+                        .define('#', Items.LAPIS_LAZULI)
+                        .pattern(" S ")
+                        .pattern("S#S")
+                        .pattern("LLL")
+                        .unlockedBy("has_lapis_lazuli", has(Items.LAPIS_LAZULI))
                         .group("redstone_campfires")
                         .save(this.output);
             }
