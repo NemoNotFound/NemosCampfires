@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "redstone_campfires",
+  "group": "lapis_campfires",
   "key": {
     "#": "minecraft:lapis_lazuli",
     "L": "#minecraft:jungle_logs",

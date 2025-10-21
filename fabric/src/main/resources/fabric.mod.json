@@ -16,13 +16,13 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.devnemo.nemos.campfires.FabricNemosCampfires"
+            "com.nemonotfound.nemos.campfires.FabricNemosCampfires"
         ],
         "client": [
-            "com.devnemo.nemos.campfires.FabricNemosCampfiresClient"
+            "com.nemonotfound.nemos.campfires.FabricNemosCampfiresClient"
         ],
         "fabric-datagen": [
-            "com.devnemo.nemos.campfires.DataGenerator"
+            "com.nemonotfound.nemos.campfires.DataGenerator"
         ]
     },
     "depends": {

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_campfire",
+  "textures": {
+    "fire": "nemos_campfires:block/quartz_campfire_fire",
+    "lit_log": "nemos_campfires:block/dark_oak_quartz_campfire_log_lit",
+    "log": "nemos_campfires:block/dark_oak_campfire_log",
+    "particle": "nemos_campfires:block/dark_oak_campfire_log"
+  }
+}
