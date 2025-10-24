@@ -1,5 +1,6 @@
 package com.nemonotfound.nemos.campfires.datagen;
 
+import com.nemonotfound.nemos.campfires.world.item.NemosCampfiresItems;
 import com.nemonotfound.nemos.campfires.world.level.block.NemosCampfiresBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -11,6 +12,7 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import org.jetbrains.annotations.NotNull;
 
@@ -96,9 +98,16 @@ public class NemosCampfiresRecipeProvider extends FabricRecipeProvider {
                 createQuartzCampfireRecipe(NemosCampfiresBlocks.OAK_QUARTZ_CAMPFIRE.get(), ItemTags.OAK_LOGS);
                 createQuartzCampfireRecipe(NemosCampfiresBlocks.SPRUCE_QUARTZ_CAMPFIRE.get(), ItemTags.SPRUCE_LOGS);
                 createQuartzCampfireRecipe(NemosCampfiresBlocks.WARPED_QUARTZ_CAMPFIRE.get(), ItemTags.WARPED_STEMS);
+
+                createCobblestoneCampfireRecipe();
+                createCobblestoneSoulCampfireRecipe();
+                createCobblestoneCopperCampfireRecipe();
+                createCobblestoneRedstoneCampfireRecipe();
+                createCobblestoneLapisCampfireRecipe();
+                createCobblestoneQuartzCampfireRecipe();
             }
 
-            private void createCampfireRecipe(Block result, TagKey<Item> log) {
+            private void createCampfireRecipe(ItemLike result, TagKey<Item> log) {
                 this.shaped(RecipeCategory.DECORATIONS, result)
                         .define('L', log)
                         .define('S', Items.STICK)
@@ -112,23 +121,53 @@ public class NemosCampfiresRecipeProvider extends FabricRecipeProvider {
                         .save(this.output);
             }
 
+            private void createCobblestoneCampfireRecipe() {
+                this.shaped(RecipeCategory.DECORATIONS, NemosCampfiresItems.COBBLESTONE_CAMPFIRE.get())
+                        .define('C', Items.COBBLESTONE)
+                        .define('S', Items.STICK)
+                        .define('#', ItemTags.COALS)
+                        .pattern(" S ")
+                        .pattern("S#S")
+                        .pattern("CCC")
+                        .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                        .unlockedBy("has_coal", has(ItemTags.COALS))
+                        .group("campfires")
+                        .save(this.output);
+            }
+
             private void createCopperCampfireRecipe(Block result, TagKey<Item> log) {
                 createCampfireRecipe(result, log, Items.COPPER_INGOT, "copper_campfires");
+            }
+
+            private void createCobblestoneCopperCampfireRecipe() {
+                createCobblestoneCampfireRecipe(NemosCampfiresItems.COBBLESTONE_COPPER_CAMPFIRE.get(), Items.COPPER_INGOT, "copper_campfires");
             }
 
             private void createRedstoneCampfireRecipe(Block result, TagKey<Item> log) {
                 createCampfireRecipe(result, log, Items.REDSTONE, "redstone_campfires");
             }
 
+            private void createCobblestoneRedstoneCampfireRecipe() {
+                createCobblestoneCampfireRecipe(NemosCampfiresItems.COBBLESTONE_REDSTONE_CAMPFIRE.get(), Items.REDSTONE, "redstone_campfires");
+            }
+
             private void createLapisCampfireRecipe(Block result, TagKey<Item> log) {
                 createCampfireRecipe(result, log, Items.LAPIS_LAZULI, "lapis_campfires");
+            }
+
+            private void createCobblestoneLapisCampfireRecipe() {
+                createCobblestoneCampfireRecipe(NemosCampfiresItems.COBBLESTONE_LAPIS_CAMPFIRE.get(), Items.LAPIS_LAZULI, "lapis_campfires");
             }
 
             private void createQuartzCampfireRecipe(Block result, TagKey<Item> log) {
                 createCampfireRecipe(result, log, Items.QUARTZ, "quartz_campfires");
             }
 
-            private void createSoulCampfireRecipe(Block result, TagKey<Item> log) {
+            private void createCobblestoneQuartzCampfireRecipe() {
+                createCobblestoneCampfireRecipe(NemosCampfiresItems.COBBLESTONE_QUARTZ_CAMPFIRE.get(), Items.QUARTZ, "quartz_campfires");
+            }
+
+            private void createSoulCampfireRecipe(ItemLike result, TagKey<Item> log) {
                 this.shaped(RecipeCategory.DECORATIONS, result)
                         .define('L', log)
                         .define('S', Items.STICK)
@@ -141,7 +180,20 @@ public class NemosCampfiresRecipeProvider extends FabricRecipeProvider {
                         .save(this.output);
             }
 
-            private void createCampfireRecipe(Block result, TagKey<Item> log, Item fuelItem, String group) {
+            private void createCobblestoneSoulCampfireRecipe() {
+                this.shaped(RecipeCategory.DECORATIONS, NemosCampfiresItems.COBBLESTONE_SOUL_CAMPFIRE.get())
+                        .define('C', Items.COBBLESTONE)
+                        .define('S', Items.STICK)
+                        .define('#', ItemTags.SOUL_FIRE_BASE_BLOCKS)
+                        .pattern(" S ")
+                        .pattern("S#S")
+                        .pattern("CCC")
+                        .unlockedBy("has_soul_sand", has(ItemTags.SOUL_FIRE_BASE_BLOCKS))
+                        .group("soul_campfires")
+                        .save(this.output);
+            }
+
+            private void createCampfireRecipe(ItemLike result, TagKey<Item> log, Item fuelItem, String group) {
                 this.shaped(RecipeCategory.DECORATIONS, result)
                         .define('L', log)
                         .define('S', Items.STICK)
@@ -149,6 +201,19 @@ public class NemosCampfiresRecipeProvider extends FabricRecipeProvider {
                         .pattern(" S ")
                         .pattern("S#S")
                         .pattern("LLL")
+                        .unlockedBy(getHasName(fuelItem), has(fuelItem))
+                        .group(group)
+                        .save(this.output);
+            }
+
+            private void createCobblestoneCampfireRecipe(ItemLike result, Item fuelItem, String group) {
+                this.shaped(RecipeCategory.DECORATIONS, result)
+                        .define('C', Items.COBBLESTONE)
+                        .define('S', Items.STICK)
+                        .define('#', fuelItem)
+                        .pattern(" S ")
+                        .pattern("S#S")
+                        .pattern("CCC")
                         .unlockedBy(getHasName(fuelItem), has(fuelItem))
                         .group(group)
                         .save(this.output);

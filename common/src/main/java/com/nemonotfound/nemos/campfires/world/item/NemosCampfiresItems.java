@@ -22,6 +22,8 @@ public class NemosCampfiresItems {
     public static final Supplier<Item> MANGROVE_CAMPFIRE = registerCampfireBlockItem("mangrove_campfire", NemosCampfiresBlocks.MANGROVE_CAMPFIRE);
     public static final Supplier<Item> SPRUCE_CAMPFIRE = registerCampfireBlockItem("spruce_campfire", NemosCampfiresBlocks.SPRUCE_CAMPFIRE);
     public static final Supplier<Item> WARPED_CAMPFIRE = registerCampfireBlockItem("warped_campfire", NemosCampfiresBlocks.WARPED_CAMPFIRE);
+    public static final Supplier<Item> COBBLESTONE_CAMPFIRE = registerCampfireBlockItem("cobblestone_campfire", NemosCampfiresBlocks.COBBLESTONE_CAMPFIRE);
+
     public static final Supplier<Item> ACACIA_SOUL_CAMPFIRE = registerCampfireBlockItem("acacia_soul_campfire", NemosCampfiresBlocks.ACACIA_SOUL_CAMPFIRE);
     public static final Supplier<Item> BIRCH_SOUL_CAMPFIRE = registerCampfireBlockItem("birch_soul_campfire", NemosCampfiresBlocks.BIRCH_SOUL_CAMPFIRE);
     public static final Supplier<Item> CHERRY_SOUL_CAMPFIRE = registerCampfireBlockItem("cherry_soul_campfire", NemosCampfiresBlocks.CHERRY_SOUL_CAMPFIRE);
@@ -32,6 +34,8 @@ public class NemosCampfiresItems {
     public static final Supplier<Item> MANGROVE_SOUL_CAMPFIRE = registerCampfireBlockItem("mangrove_soul_campfire", NemosCampfiresBlocks.MANGROVE_SOUL_CAMPFIRE);
     public static final Supplier<Item> SPRUCE_SOUL_CAMPFIRE = registerCampfireBlockItem("spruce_soul_campfire", NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE);
     public static final Supplier<Item> WARPED_SOUL_CAMPFIRE = registerCampfireBlockItem("warped_soul_campfire", NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE);
+    public static final Supplier<Item> COBBLESTONE_SOUL_CAMPFIRE = registerCampfireBlockItem("cobblestone_soul_campfire", NemosCampfiresBlocks.COBBLESTONE_SOUL_CAMPFIRE);
+
     public static final Supplier<Item> ACACIA_COPPER_CAMPFIRE = registerCampfireBlockItem("acacia_copper_campfire", NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE);
     public static final Supplier<Item> BIRCH_COPPER_CAMPFIRE = registerCampfireBlockItem("birch_copper_campfire", NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE);
     public static final Supplier<Item> CHERRY_COPPER_CAMPFIRE = registerCampfireBlockItem("cherry_copper_campfire", NemosCampfiresBlocks.CHERRY_COPPER_CAMPFIRE);
@@ -43,6 +47,8 @@ public class NemosCampfiresItems {
     public static final Supplier<Item> OAK_COPPER_CAMPFIRE = registerCampfireBlockItem("oak_copper_campfire", NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE);
     public static final Supplier<Item> SPRUCE_COPPER_CAMPFIRE = registerCampfireBlockItem("spruce_copper_campfire", NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE);
     public static final Supplier<Item> WARPED_COPPER_CAMPFIRE = registerCampfireBlockItem("warped_copper_campfire", NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE);
+    public static final Supplier<Item> COBBLESTONE_COPPER_CAMPFIRE = registerCampfireBlockItem("cobblestone_copper_campfire", NemosCampfiresBlocks.COBBLESTONE_COPPER_CAMPFIRE);
+
     public static final Supplier<Item> ACACIA_REDSTONE_CAMPFIRE = registerCampfireBlockItem("acacia_redstone_campfire", NemosCampfiresBlocks.ACACIA_REDSTONE_CAMPFIRE);
     public static final Supplier<Item> BIRCH_REDSTONE_CAMPFIRE = registerCampfireBlockItem("birch_redstone_campfire", NemosCampfiresBlocks.BIRCH_REDSTONE_CAMPFIRE);
     public static final Supplier<Item> CHERRY_REDSTONE_CAMPFIRE = registerCampfireBlockItem("cherry_redstone_campfire", NemosCampfiresBlocks.CHERRY_REDSTONE_CAMPFIRE);
@@ -54,6 +60,8 @@ public class NemosCampfiresItems {
     public static final Supplier<Item> OAK_REDSTONE_CAMPFIRE = registerCampfireBlockItem("oak_redstone_campfire", NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE);
     public static final Supplier<Item> SPRUCE_REDSTONE_CAMPFIRE = registerCampfireBlockItem("spruce_redstone_campfire", NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE);
     public static final Supplier<Item> WARPED_REDSTONE_CAMPFIRE = registerCampfireBlockItem("warped_redstone_campfire", NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE);
+    public static final Supplier<Item> COBBLESTONE_REDSTONE_CAMPFIRE = registerCampfireBlockItem("cobblestone_redstone_campfire", NemosCampfiresBlocks.COBBLESTONE_REDSTONE_CAMPFIRE);
+
     public static final Supplier<Item> ACACIA_LAPIS_CAMPFIRE = registerCampfireBlockItem("acacia_lapis_campfire", NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE);
     public static final Supplier<Item> BIRCH_LAPIS_CAMPFIRE = registerCampfireBlockItem("birch_lapis_campfire", NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE);
     public static final Supplier<Item> CHERRY_LAPIS_CAMPFIRE = registerCampfireBlockItem("cherry_lapis_campfire", NemosCampfiresBlocks.CHERRY_LAPIS_CAMPFIRE);
@@ -65,6 +73,8 @@ public class NemosCampfiresItems {
     public static final Supplier<Item> OAK_LAPIS_CAMPFIRE = registerCampfireBlockItem("oak_lapis_campfire", NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE);
     public static final Supplier<Item> SPRUCE_LAPIS_CAMPFIRE = registerCampfireBlockItem("spruce_lapis_campfire", NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE);
     public static final Supplier<Item> WARPED_LAPIS_CAMPFIRE = registerCampfireBlockItem("warped_lapis_campfire", NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE);
+    public static final Supplier<Item> COBBLESTONE_LAPIS_CAMPFIRE = registerCampfireBlockItem("cobblestone_lapis_campfire", NemosCampfiresBlocks.COBBLESTONE_LAPIS_CAMPFIRE);
+
     public static final Supplier<Item> ACACIA_QUARTZ_CAMPFIRE = registerCampfireBlockItem("acacia_quartz_campfire", NemosCampfiresBlocks.ACACIA_QUARTZ_CAMPFIRE);
     public static final Supplier<Item> BIRCH_QUARTZ_CAMPFIRE = registerCampfireBlockItem("birch_quartz_campfire", NemosCampfiresBlocks.BIRCH_QUARTZ_CAMPFIRE);
     public static final Supplier<Item> CHERRY_QUARTZ_CAMPFIRE = registerCampfireBlockItem("cherry_quartz_campfire", NemosCampfiresBlocks.CHERRY_QUARTZ_CAMPFIRE);
@@ -76,6 +86,7 @@ public class NemosCampfiresItems {
     public static final Supplier<Item> OAK_QUARTZ_CAMPFIRE = registerCampfireBlockItem("oak_quartz_campfire", NemosCampfiresBlocks.OAK_QUARTZ_CAMPFIRE);
     public static final Supplier<Item> SPRUCE_QUARTZ_CAMPFIRE = registerCampfireBlockItem("spruce_quartz_campfire", NemosCampfiresBlocks.SPRUCE_QUARTZ_CAMPFIRE);
     public static final Supplier<Item> WARPED_QUARTZ_CAMPFIRE = registerCampfireBlockItem("warped_quartz_campfire", NemosCampfiresBlocks.WARPED_QUARTZ_CAMPFIRE);
+    public static final Supplier<Item> COBBLESTONE_QUARTZ_CAMPFIRE = registerCampfireBlockItem("cobblestone_quartz_campfire", NemosCampfiresBlocks.COBBLESTONE_QUARTZ_CAMPFIRE);
 
     public static void init() {}
 

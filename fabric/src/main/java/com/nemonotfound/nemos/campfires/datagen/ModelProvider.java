@@ -1,7 +1,7 @@
 package com.nemonotfound.nemos.campfires.datagen;
 
-import com.nemonotfound.nemos.campfires.client.data.models.model.NemosCampfiresModelTemplates;
-import com.nemonotfound.nemos.campfires.client.data.models.model.NemosCampfiresTextureMapping;
+import com.nemonotfound.nemos.campfires.client.data.models.model.CampfiresModelTemplates;
+import com.nemonotfound.nemos.campfires.client.data.models.model.CampfiresTextureMapping;
 import com.nemonotfound.nemos.campfires.world.level.block.NemosCampfiresBlocks;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -39,6 +39,7 @@ public class ModelProvider extends FabricModelProvider {
         createCampfires(blockStateModelGenerator, NemosCampfiresBlocks.MANGROVE_CAMPFIRE.get(), NemosCampfiresBlocks.MANGROVE_SOUL_CAMPFIRE.get());
         createCampfires(blockStateModelGenerator, NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get(), NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE.get());
         createCampfires(blockStateModelGenerator, NemosCampfiresBlocks.WARPED_CAMPFIRE.get(), NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE.get());
+
         createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.ACACIA_CAMPFIRE.get());
         createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.BIRCH_CAMPFIRE.get());
         createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.CHERRY_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.CHERRY_CAMPFIRE.get());
@@ -50,6 +51,7 @@ public class ModelProvider extends FabricModelProvider {
         createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get(), Blocks.CAMPFIRE);
         createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get());
         createCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get(), NemosCampfiresBlocks.WARPED_CAMPFIRE.get());
+
         createRedstoneCampfire(blockStateModelGenerator, NemosCampfiresBlocks.ACACIA_REDSTONE_CAMPFIRE.get(), NemosCampfiresBlocks.ACACIA_CAMPFIRE.get());
         createRedstoneCampfire(blockStateModelGenerator, NemosCampfiresBlocks.BIRCH_REDSTONE_CAMPFIRE.get(), NemosCampfiresBlocks.BIRCH_CAMPFIRE.get());
         createRedstoneCampfire(blockStateModelGenerator, NemosCampfiresBlocks.CHERRY_REDSTONE_CAMPFIRE.get(), NemosCampfiresBlocks.CHERRY_CAMPFIRE.get());
@@ -61,6 +63,7 @@ public class ModelProvider extends FabricModelProvider {
         createRedstoneCampfire(blockStateModelGenerator, NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get(), Blocks.CAMPFIRE);
         createRedstoneCampfire(blockStateModelGenerator, NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get(), NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get());
         createRedstoneCampfire(blockStateModelGenerator, NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), NemosCampfiresBlocks.WARPED_CAMPFIRE.get());
+
         createLapisCampfire(blockStateModelGenerator, NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get(), NemosCampfiresBlocks.ACACIA_CAMPFIRE.get());
         createLapisCampfire(blockStateModelGenerator, NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get(), NemosCampfiresBlocks.BIRCH_CAMPFIRE.get());
         createLapisCampfire(blockStateModelGenerator, NemosCampfiresBlocks.CHERRY_LAPIS_CAMPFIRE.get(), NemosCampfiresBlocks.CHERRY_CAMPFIRE.get());
@@ -72,6 +75,7 @@ public class ModelProvider extends FabricModelProvider {
         createLapisCampfire(blockStateModelGenerator, NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get(), Blocks.CAMPFIRE);
         createLapisCampfire(blockStateModelGenerator, NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get(), NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get());
         createLapisCampfire(blockStateModelGenerator, NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get(), NemosCampfiresBlocks.WARPED_CAMPFIRE.get());
+
         createQuartzCampfire(blockStateModelGenerator, NemosCampfiresBlocks.ACACIA_QUARTZ_CAMPFIRE.get(), NemosCampfiresBlocks.ACACIA_CAMPFIRE.get());
         createQuartzCampfire(blockStateModelGenerator, NemosCampfiresBlocks.BIRCH_QUARTZ_CAMPFIRE.get(), NemosCampfiresBlocks.BIRCH_CAMPFIRE.get());
         createQuartzCampfire(blockStateModelGenerator, NemosCampfiresBlocks.CHERRY_QUARTZ_CAMPFIRE.get(), NemosCampfiresBlocks.CHERRY_CAMPFIRE.get());
@@ -83,6 +87,12 @@ public class ModelProvider extends FabricModelProvider {
         createQuartzCampfire(blockStateModelGenerator, NemosCampfiresBlocks.OAK_QUARTZ_CAMPFIRE.get(), Blocks.CAMPFIRE);
         createQuartzCampfire(blockStateModelGenerator, NemosCampfiresBlocks.SPRUCE_QUARTZ_CAMPFIRE.get(), NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get());
         createQuartzCampfire(blockStateModelGenerator, NemosCampfiresBlocks.WARPED_QUARTZ_CAMPFIRE.get(), NemosCampfiresBlocks.WARPED_CAMPFIRE.get());
+
+        createCobblestoneCampfires(blockStateModelGenerator, NemosCampfiresBlocks.COBBLESTONE_CAMPFIRE.get(),  NemosCampfiresBlocks.COBBLESTONE_SOUL_CAMPFIRE.get());
+        createCobblestoneCopperCampfire(blockStateModelGenerator, NemosCampfiresBlocks.COBBLESTONE_COPPER_CAMPFIRE.get());
+        createCobblestoneRedstoneCampfire(blockStateModelGenerator, NemosCampfiresBlocks.COBBLESTONE_REDSTONE_CAMPFIRE.get());
+        createCobblestoneLapisCampfire(blockStateModelGenerator, NemosCampfiresBlocks.COBBLESTONE_LAPIS_CAMPFIRE.get());
+        createCobblestoneQuartzCampfire(blockStateModelGenerator, NemosCampfiresBlocks.COBBLESTONE_QUARTZ_CAMPFIRE.get());
     }
 
     @Override
@@ -90,33 +100,65 @@ public class ModelProvider extends FabricModelProvider {
     }
 
     public final void createCampfires(BlockModelGenerators blockModelGenerators, Block campfireVariant, Block soulCampfireVariant) {
-        var cmapfireMultiVariant = plainVariant(NemosCampfiresModelTemplates.CAMPFIRE.create(campfireVariant, NemosCampfiresTextureMapping.campfire(campfireVariant, Blocks.CAMPFIRE), blockModelGenerators.modelOutput));
-        var soulCampfireMultiVariant =  plainVariant(NemosCampfiresModelTemplates.CAMPFIRE.create(soulCampfireVariant, NemosCampfiresTextureMapping.soulCampfire(soulCampfireVariant, campfireVariant, Blocks.SOUL_CAMPFIRE), blockModelGenerators.modelOutput));
-        var campfireOffMultiVariant =  plainVariant(NemosCampfiresModelTemplates.CAMPFIRE_OFF.createWithSuffix(campfireVariant, "_off", NemosCampfiresTextureMapping.campfireOff(campfireVariant), blockModelGenerators.modelOutput));
+        var cmapfireMultiVariant = plainVariant(CampfiresModelTemplates.CAMPFIRE.create(campfireVariant, CampfiresTextureMapping.campfire(campfireVariant, Blocks.CAMPFIRE), blockModelGenerators.modelOutput));
+        var soulCampfireMultiVariant =  plainVariant(CampfiresModelTemplates.CAMPFIRE.create(soulCampfireVariant, CampfiresTextureMapping.soulCampfire(soulCampfireVariant, campfireVariant, Blocks.SOUL_CAMPFIRE), blockModelGenerators.modelOutput));
+        var campfireOffMultiVariant =  plainVariant(CampfiresModelTemplates.CAMPFIRE_OFF.createWithSuffix(campfireVariant, "_off", CampfiresTextureMapping.campfireOff(campfireVariant), blockModelGenerators.modelOutput));
+
+        createCampfire(blockModelGenerators, campfireVariant, cmapfireMultiVariant, campfireOffMultiVariant);
+        createCampfire(blockModelGenerators, soulCampfireVariant, soulCampfireMultiVariant, campfireOffMultiVariant);
+    }
+
+    public final void createCobblestoneCampfires(BlockModelGenerators blockModelGenerators, Block campfireVariant, Block soulCampfireVariant) {
+        var cmapfireMultiVariant = plainVariant(CampfiresModelTemplates.COBBLESTONE_CAMPFIRE.create(campfireVariant, CampfiresTextureMapping.cobblestoneCampfire(), blockModelGenerators.modelOutput));
+        var soulCampfireMultiVariant =  plainVariant(CampfiresModelTemplates.COBBLESTONE_CAMPFIRE.create(soulCampfireVariant, CampfiresTextureMapping.cobblestoneSoulCampfire(), blockModelGenerators.modelOutput));
+        var campfireOffMultiVariant =  plainVariant(CampfiresModelTemplates.COBBLESTONE_CAMPFIRE_OFF.createWithSuffix(campfireVariant, "_off", new TextureMapping(), blockModelGenerators.modelOutput));
 
         createCampfire(blockModelGenerators, campfireVariant, cmapfireMultiVariant, campfireOffMultiVariant);
         createCampfire(blockModelGenerators, soulCampfireVariant, soulCampfireMultiVariant, campfireOffMultiVariant);
     }
 
     public final void createCopperCampfire(BlockModelGenerators blockModelGenerators, Block copperCampfireVariant, Block campfireVariant) {
-        createCustomFlameCampfire(blockModelGenerators, copperCampfireVariant, campfireVariant, NemosCampfiresTextureMapping.copperCampfire(copperCampfireVariant, campfireVariant));
+        createCustomFlameCampfire(blockModelGenerators, copperCampfireVariant, campfireVariant, CampfiresTextureMapping.copperCampfire(copperCampfireVariant, campfireVariant));
+    }
+
+    public final void createCobblestoneCopperCampfire(BlockModelGenerators blockModelGenerators, Block copperCampfireVariant) {
+        createCustomFlameCobblestoneCampfire(blockModelGenerators, copperCampfireVariant, CampfiresTextureMapping.cobblestoneCopperCampfire());
     }
 
     public final void createRedstoneCampfire(BlockModelGenerators blockModelGenerators, Block redstoneCampfireVariant, Block campfireVariant) {
-        createCustomFlameCampfire(blockModelGenerators, redstoneCampfireVariant, campfireVariant, NemosCampfiresTextureMapping.redstoneCampfire(redstoneCampfireVariant, campfireVariant));
+        createCustomFlameCampfire(blockModelGenerators, redstoneCampfireVariant, campfireVariant, CampfiresTextureMapping.redstoneCampfire(redstoneCampfireVariant, campfireVariant));
+    }
+
+    public final void createCobblestoneRedstoneCampfire(BlockModelGenerators blockModelGenerators, Block redstoneCampfireVariant) {
+        createCustomFlameCobblestoneCampfire(blockModelGenerators, redstoneCampfireVariant, CampfiresTextureMapping.cobblestoneRedstoneCampfire());
     }
 
     public final void createLapisCampfire(BlockModelGenerators blockModelGenerators, Block lapisCampfireVariant, Block campfireVariant) {
-        createCustomFlameCampfire(blockModelGenerators, lapisCampfireVariant, campfireVariant, NemosCampfiresTextureMapping.lapisCampfire(lapisCampfireVariant, campfireVariant));
+        createCustomFlameCampfire(blockModelGenerators, lapisCampfireVariant, campfireVariant, CampfiresTextureMapping.lapisCampfire(lapisCampfireVariant, campfireVariant));
+    }
+
+    public final void createCobblestoneLapisCampfire(BlockModelGenerators blockModelGenerators, Block lapisCampfireVariant) {
+        createCustomFlameCobblestoneCampfire(blockModelGenerators, lapisCampfireVariant, CampfiresTextureMapping.cobblestoneLapisCampfire());
     }
 
     public final void createQuartzCampfire(BlockModelGenerators blockModelGenerators, Block quartzCampfireVariant, Block campfireVariant) {
-        createCustomFlameCampfire(blockModelGenerators, quartzCampfireVariant, campfireVariant, NemosCampfiresTextureMapping.quartzCampfire(quartzCampfireVariant, campfireVariant));
+        createCustomFlameCampfire(blockModelGenerators, quartzCampfireVariant, campfireVariant, CampfiresTextureMapping.quartzCampfire(quartzCampfireVariant, campfireVariant));
     }
 
-    private void createCustomFlameCampfire(BlockModelGenerators blockModelGenerators, Block customFlameCampfireVariant, Block campfireVariant, TextureMapping customFlame) {
-        var cmapfireMultiVariant = plainVariant(NemosCampfiresModelTemplates.CAMPFIRE.create(customFlameCampfireVariant, customFlame, blockModelGenerators.modelOutput));
-        var campfireOffMultiVariant =  plainVariant(NemosCampfiresModelTemplates.CAMPFIRE_OFF.createWithSuffix(customFlameCampfireVariant, "_off", NemosCampfiresTextureMapping.campfireOff(campfireVariant), blockModelGenerators.modelOutput));
+    public final void createCobblestoneQuartzCampfire(BlockModelGenerators blockModelGenerators, Block quartzCampfireVariant) {
+        createCustomFlameCobblestoneCampfire(blockModelGenerators, quartzCampfireVariant, CampfiresTextureMapping.cobblestoneQuartzCampfire());
+    }
+
+    private void createCustomFlameCampfire(BlockModelGenerators blockModelGenerators, Block customFlameCampfireVariant, Block campfireVariant, TextureMapping textureMapping) {
+        var cmapfireMultiVariant = plainVariant(CampfiresModelTemplates.CAMPFIRE.create(customFlameCampfireVariant, textureMapping, blockModelGenerators.modelOutput));
+        var campfireOffMultiVariant =  plainVariant(CampfiresModelTemplates.CAMPFIRE_OFF.createWithSuffix(customFlameCampfireVariant, "_off", CampfiresTextureMapping.campfireOff(campfireVariant), blockModelGenerators.modelOutput));
+
+        createCampfire(blockModelGenerators, customFlameCampfireVariant, cmapfireMultiVariant, campfireOffMultiVariant);
+    }
+
+    private void createCustomFlameCobblestoneCampfire(BlockModelGenerators blockModelGenerators, Block customFlameCampfireVariant, TextureMapping textureMapping) {
+        var cmapfireMultiVariant = plainVariant(CampfiresModelTemplates.COBBLESTONE_CAMPFIRE.create(customFlameCampfireVariant, textureMapping, blockModelGenerators.modelOutput));
+        var campfireOffMultiVariant =  plainVariant(CampfiresModelTemplates.COBBLESTONE_CAMPFIRE_OFF.createWithSuffix(customFlameCampfireVariant, "_off", new TextureMapping(), blockModelGenerators.modelOutput));
 
         createCampfire(blockModelGenerators, customFlameCampfireVariant, cmapfireMultiVariant, campfireOffMultiVariant);
     }

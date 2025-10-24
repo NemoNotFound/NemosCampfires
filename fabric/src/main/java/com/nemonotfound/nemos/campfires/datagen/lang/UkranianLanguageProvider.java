@@ -28,6 +28,7 @@ public class UkranianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.MANGROVE_CAMPFIRE.get(), "Мангрове багаття");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get(), "Смерекове багаття");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_CAMPFIRE.get(), "Химерне багаття");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_CAMPFIRE.get(), "Багаття з бруківки");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_SOUL_CAMPFIRE.get(), "Акацієве багаття душ");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_SOUL_CAMPFIRE.get(), "Березове багаття душ");
@@ -40,6 +41,7 @@ public class UkranianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.MANGROVE_SOUL_CAMPFIRE.get(), "Мангрове багаття душ");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE.get(), "Смерекове багаття душ");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE.get(), "Химерне багаття душ");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_SOUL_CAMPFIRE.get(), "Багаття душ з бруківки");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE.get(), "Акацієве мідне багаття");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE.get(), "Березове мідне багаття");
@@ -52,6 +54,7 @@ public class UkranianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get(), "Дубове мідне багаття");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get(), "Смерекове мідне багаття");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get(), "Химерне мідне багаття");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_COPPER_CAMPFIRE.get(), "Мідне багаття з бруківки");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_REDSTONE_CAMPFIRE.get(), "Акацієве редстоунове багаття");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_REDSTONE_CAMPFIRE.get(), "Березове редстоунове багаття");
@@ -64,6 +67,7 @@ public class UkranianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get(), "Дубове редстоунове багаття");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get(), "Смерекове редстоунове багаття");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), "Химерне редстоунове багаття");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_REDSTONE_CAMPFIRE.get(), "Редстоунове багаття з бруківки");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get(), "Акацієве лазуритове багаття");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get(), "Березове лазуритове багаття");
@@ -76,6 +80,7 @@ public class UkranianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get(), "Дубове лазуритове багаття");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get(), "Смерекове лазуритове багаття");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get(), "Химерне лазуритове багаття");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_LAPIS_CAMPFIRE.get(), "Лазуритове багаття з бруківки");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_QUARTZ_CAMPFIRE.get(), "Акацієве кварцове багаття");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_QUARTZ_CAMPFIRE.get(), "Березове кварцове багаття");
@@ -88,6 +93,6 @@ public class UkranianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_QUARTZ_CAMPFIRE.get(), "Дубове кварцове багаття");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_QUARTZ_CAMPFIRE.get(), "Смерекове кварцове багаття");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_QUARTZ_CAMPFIRE.get(), "Химерне кварцове багаття");
-
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_QUARTZ_CAMPFIRE.get(), "Кварцове багаття з бруківки");
     }
 }

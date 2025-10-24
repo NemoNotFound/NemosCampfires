@@ -28,6 +28,7 @@ public class RussianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.MANGROVE_CAMPFIRE.get(), "Мангровый костёр");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get(), "Еловый костёр");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_CAMPFIRE.get(), "Искажённый костёр");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_CAMPFIRE.get(), "Костёр из булыжника");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_SOUL_CAMPFIRE.get(), "Акациевый костёр душ");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_SOUL_CAMPFIRE.get(), "Берёзовый костёр душ");
@@ -39,6 +40,7 @@ public class RussianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.MANGROVE_SOUL_CAMPFIRE.get(), "Мангровый костёр душ");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE.get(), "Еловый костёр душ");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE.get(), "Искажённый костёр душ");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_SOUL_CAMPFIRE.get(), "Костёр душ из булыжника");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE.get(), "Акациевый медный костёр");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE.get(), "Берёзовый медный костёр");
@@ -50,6 +52,7 @@ public class RussianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get(), "Дубовый медный костёр");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get(), "Еловый медный костёр");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get(), "Искажённый медный костёр");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_COPPER_CAMPFIRE.get(), "Медный костёр из булыжника");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_REDSTONE_CAMPFIRE.get(), "Акациевый редстоуновый костёр");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_REDSTONE_CAMPFIRE.get(), "Берёзовый редстоуновый костёр");
@@ -62,6 +65,7 @@ public class RussianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get(), "Дубовый редстоуновый костёр");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get(), "Еловый редстоуновый костёр");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), "Искажённый редстоуновый костёр");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_REDSTONE_CAMPFIRE.get(), "Редстоуновый костёр из булыжника");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get(), "Акациевый лазуритовый костёр");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get(), "Берёзовый лазуритовый костёр");
@@ -74,6 +78,7 @@ public class RussianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get(), "Дубовый лазуритовый костёр");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get(), "Еловый лазуритовый костёр");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get(), "Искажённый лазуритовый костёр");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_LAPIS_CAMPFIRE.get(), "Лазуритовый костёр из булыжника");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_QUARTZ_CAMPFIRE.get(), "Акациевый кварцевый костёр");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_QUARTZ_CAMPFIRE.get(), "Берёзовый кварцевый костёр");
@@ -86,6 +91,6 @@ public class RussianLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_QUARTZ_CAMPFIRE.get(), "Дубовый кварцевый костёр");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_QUARTZ_CAMPFIRE.get(), "Еловый кварцевый костёр");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_QUARTZ_CAMPFIRE.get(), "Искажённый кварцевый костёр");
-
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_QUARTZ_CAMPFIRE.get(), "Кварцевый костёр из булыжника");
     }
 }

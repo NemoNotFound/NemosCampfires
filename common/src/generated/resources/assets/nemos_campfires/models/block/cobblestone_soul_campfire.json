@@ -1,0 +1,7 @@
+{
+  "parent": "nemos_campfires:block/template_cobblestone_campfire",
+  "textures": {
+    "campfire_ember": "nemos_campfires:block/soul_campfire_ember",
+    "fire": "minecraft:block/soul_campfire_fire"
+  }
+}

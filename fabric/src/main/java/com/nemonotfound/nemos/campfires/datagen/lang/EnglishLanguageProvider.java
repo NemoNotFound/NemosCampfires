@@ -29,6 +29,8 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.MANGROVE_CAMPFIRE.get(), "Mangrove Campfire");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get(), "Spruce Campfire");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_CAMPFIRE.get(), "Warped Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_CAMPFIRE.get(), "Cobblestone Campfire");
+
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_SOUL_CAMPFIRE.get(), "Acacia Soul Campfire");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_SOUL_CAMPFIRE.get(), "Birch Soul Campfire");
         translationBuilder.add(Blocks.SOUL_CAMPFIRE, "Oak Soul Campfire");
@@ -40,6 +42,8 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.MANGROVE_SOUL_CAMPFIRE.get(), "Mangrove Soul Campfire");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE.get(), "Spruce Soul Campfire");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE.get(), "Warped Soul Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_SOUL_CAMPFIRE.get(), "Cobblestone Soul Campfire");
+
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE.get(), "Acacia Copper Campfire");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE.get(), "Birch Copper Campfire");
         translationBuilder.add(NemosCampfiresBlocks.CHERRY_COPPER_CAMPFIRE.get(), "Cherry Copper Campfire");
@@ -51,6 +55,8 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get(), "Oak Copper Campfire");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get(), "Spruce Copper Campfire");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get(), "Warped Copper Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_COPPER_CAMPFIRE.get(), "Cobblestone Copper Campfire");
+
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_REDSTONE_CAMPFIRE.get(), "Acacia Redstone Campfire");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_REDSTONE_CAMPFIRE.get(), "Birch Redstone Campfire");
         translationBuilder.add(NemosCampfiresBlocks.CHERRY_REDSTONE_CAMPFIRE.get(), "Cherry Redstone Campfire");
@@ -62,6 +68,8 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get(), "Oak Redstone Campfire");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get(), "Spruce Redstone Campfire");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), "Warped Redstone Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_REDSTONE_CAMPFIRE.get(), "Cobblestone Redstone Campfire");
+
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get(), "Acacia Lapis Lazuli Campfire");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get(), "Birch Lapis Lazuli Campfire");
         translationBuilder.add(NemosCampfiresBlocks.CHERRY_LAPIS_CAMPFIRE.get(), "Cherry Lapis Lazuli Campfire");
@@ -73,6 +81,8 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get(), "Oak Lapis Lazuli Campfire");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get(), "Spruce Lapis Lazuli Campfire");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get(), "Warped Lapis Lazuli Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_LAPIS_CAMPFIRE.get(), "Cobblestone Lapis Lazuli Campfire");
+
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_QUARTZ_CAMPFIRE.get(), "Acacia Quartz Campfire");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_QUARTZ_CAMPFIRE.get(), "Birch Quartz Campfire");
         translationBuilder.add(NemosCampfiresBlocks.CHERRY_QUARTZ_CAMPFIRE.get(), "Cherry Quartz Campfire");
@@ -84,6 +94,8 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_QUARTZ_CAMPFIRE.get(), "Oak Quartz Campfire");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_QUARTZ_CAMPFIRE.get(), "Spruce Quartz Campfire");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_QUARTZ_CAMPFIRE.get(), "Warped Quartz Campfire");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_QUARTZ_CAMPFIRE.get(), "Cobblestone Quartz Campfire");
+
         translationBuilder.add("itemGroup." + MOD_ID, "Nemo's Campfires");
     }
 }

@@ -10,6 +10,7 @@
     "nemos_campfires:mangrove_campfire",
     "nemos_campfires:spruce_campfire",
     "nemos_campfires:warped_campfire",
+    "nemos_campfires:cobblestone_campfire",
     "nemos_campfires:acacia_soul_campfire",
     "nemos_campfires:birch_soul_campfire",
     "nemos_campfires:cherry_soul_campfire",
@@ -20,6 +21,7 @@
     "nemos_campfires:mangrove_soul_campfire",
     "nemos_campfires:spruce_soul_campfire",
     "nemos_campfires:warped_soul_campfire",
+    "nemos_campfires:cobblestone_soul_campfire",
     "nemos_campfires:acacia_copper_campfire",
     "nemos_campfires:birch_copper_campfire",
     "nemos_campfires:cherry_copper_campfire",
@@ -31,6 +33,7 @@
     "nemos_campfires:oak_copper_campfire",
     "nemos_campfires:spruce_copper_campfire",
     "nemos_campfires:warped_copper_campfire",
+    "nemos_campfires:cobblestone_copper_campfire",
     "nemos_campfires:acacia_redstone_campfire",
     "nemos_campfires:birch_redstone_campfire",
     "nemos_campfires:cherry_redstone_campfire",
@@ -42,6 +45,7 @@
     "nemos_campfires:oak_redstone_campfire",
     "nemos_campfires:spruce_redstone_campfire",
     "nemos_campfires:warped_redstone_campfire",
+    "nemos_campfires:cobblestone_redstone_campfire",
     "nemos_campfires:acacia_lapis_campfire",
     "nemos_campfires:birch_lapis_campfire",
     "nemos_campfires:cherry_lapis_campfire",
@@ -53,6 +57,7 @@
     "nemos_campfires:oak_lapis_campfire",
     "nemos_campfires:spruce_lapis_campfire",
     "nemos_campfires:warped_lapis_campfire",
+    "nemos_campfires:cobblestone_lapis_campfire",
     "nemos_campfires:acacia_quartz_campfire",
     "nemos_campfires:birch_quartz_campfire",
     "nemos_campfires:cherry_quartz_campfire",
@@ -63,6 +68,7 @@
     "nemos_campfires:mangrove_quartz_campfire",
     "nemos_campfires:oak_quartz_campfire",
     "nemos_campfires:spruce_quartz_campfire",
-    "nemos_campfires:warped_quartz_campfire"
+    "nemos_campfires:warped_quartz_campfire",
+    "nemos_campfires:cobblestone_quartz_campfire"
   ]
 }

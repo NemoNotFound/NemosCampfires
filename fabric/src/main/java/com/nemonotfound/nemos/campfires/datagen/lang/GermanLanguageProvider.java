@@ -27,6 +27,7 @@ public class GermanLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.MANGROVE_CAMPFIRE.get(), "Mangrovenlagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get(), "Fichtenlagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_CAMPFIRE.get(), "Wirrlagerfeuer");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_CAMPFIRE.get(), "Bruchsteinlagerfeuer");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_SOUL_CAMPFIRE.get(), "Akazienseelenlagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_SOUL_CAMPFIRE.get(), "Birkenseelenlagerfeuer");
@@ -39,6 +40,7 @@ public class GermanLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.MANGROVE_SOUL_CAMPFIRE.get(), "Mangrovenseelenlagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE.get(), "Fichtenseelenlagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE.get(), "Wirrseelenlagerfeuer");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_SOUL_CAMPFIRE.get(), "Bruchsteinseelenlagerfeuer");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE.get(), "Akazien-Kupfer-Lagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE.get(), "Birken-Kupfer-Lagerfeuer");
@@ -51,6 +53,7 @@ public class GermanLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get(), "Eichen-Kupfer-Lagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get(), "Fichten-Kupfer-Lagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get(), "Wirr-Kupfer-Lagerfeuer");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_COPPER_CAMPFIRE.get(), "Bruchstein-Kupfer-Lagerfeuer");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_REDSTONE_CAMPFIRE.get(), "Akazien-Redstone-Lagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_REDSTONE_CAMPFIRE.get(), "Birken-Redstone-Lagerfeuer");
@@ -63,6 +66,7 @@ public class GermanLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get(), "Eichen-Redstone-Lagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get(), "Fichten-Redstone-Lagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get(), "Wirr--Redstone-Lagerfeuer");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_REDSTONE_CAMPFIRE.get(), "Bruchstein-Redstone-Lagerfeuer");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get(), "Akazien-Lapis-Lagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get(), "Birken-Lapis-Lagerfeuer");
@@ -75,6 +79,7 @@ public class GermanLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get(), "Eichen-Lapis-Lagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get(), "Fichten-Lapis-Lagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get(), "Wirrpilz-Lapis-Lagerfeuer");
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_LAPIS_CAMPFIRE.get(), "Bruchstein-Lapis-Lagerfeuer");
 
         translationBuilder.add(NemosCampfiresBlocks.ACACIA_QUARTZ_CAMPFIRE.get(), "Akazien-Quarz-Lagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.BIRCH_QUARTZ_CAMPFIRE.get(), "Birken-Quarz-Lagerfeuer");
@@ -87,6 +92,6 @@ public class GermanLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosCampfiresBlocks.OAK_QUARTZ_CAMPFIRE.get(), "Eichen-Quarz-Lagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.SPRUCE_QUARTZ_CAMPFIRE.get(), "Fichten-Quarz-Lagerfeuer");
         translationBuilder.add(NemosCampfiresBlocks.WARPED_QUARTZ_CAMPFIRE.get(), "Wirrpilz-Quarz-Lagerfeuer");
-
+        translationBuilder.add(NemosCampfiresBlocks.COBBLESTONE_QUARTZ_CAMPFIRE.get(), "Bruchstein-Quarz-Lagerfeuer");
     }
 }

@@ -82,6 +82,14 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(NemosCampfiresBlocks.SPRUCE_QUARTZ_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.WARPED_QUARTZ_CAMPFIRE.get());
 
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(NemosCampfiresBlocks.COBBLESTONE_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.COBBLESTONE_SOUL_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.COBBLESTONE_COPPER_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.COBBLESTONE_REDSTONE_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.COBBLESTONE_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.COBBLESTONE_QUARTZ_CAMPFIRE.get());
+
         valueLookupBuilder(BlockTags.CAMPFIRES)
                 .add(NemosCampfiresBlocks.ACACIA_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.BIRCH_CAMPFIRE.get())
@@ -93,6 +101,7 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(NemosCampfiresBlocks.MANGROVE_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.WARPED_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.COBBLESTONE_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.ACACIA_SOUL_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.BIRCH_SOUL_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.CHERRY_SOUL_CAMPFIRE.get())
@@ -103,6 +112,7 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(NemosCampfiresBlocks.MANGROVE_SOUL_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.COBBLESTONE_SOUL_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.CHERRY_COPPER_CAMPFIRE.get())
@@ -114,6 +124,7 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.COBBLESTONE_COPPER_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.ACACIA_REDSTONE_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.BIRCH_REDSTONE_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.CHERRY_REDSTONE_CAMPFIRE.get())
@@ -125,6 +136,7 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.COBBLESTONE_REDSTONE_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.CHERRY_LAPIS_CAMPFIRE.get())
@@ -136,6 +148,7 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.COBBLESTONE_LAPIS_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.ACACIA_QUARTZ_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.BIRCH_QUARTZ_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.CHERRY_QUARTZ_CAMPFIRE.get())
@@ -146,6 +159,7 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(NemosCampfiresBlocks.MANGROVE_QUARTZ_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.OAK_QUARTZ_CAMPFIRE.get())
                 .add(NemosCampfiresBlocks.SPRUCE_QUARTZ_CAMPFIRE.get())
-                .add(NemosCampfiresBlocks.WARPED_QUARTZ_CAMPFIRE.get());
+                .add(NemosCampfiresBlocks.WARPED_QUARTZ_CAMPFIRE.get())
+                .add(NemosCampfiresBlocks.COBBLESTONE_QUARTZ_CAMPFIRE.get());
     }
 }

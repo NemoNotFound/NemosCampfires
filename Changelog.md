@@ -1,4 +1,8 @@
-# Changelog v2.3.1
+# Changelog v2.4
 
-## Fixes
-- Fixed wrong texture for Oak Redstone Campfire
+## Added
+- Cobblestone Campfire variants
+
+## Changed
+- Adjusted the color of **Redstone Campfire**
+- Adjusted the color of **Lapis Lazuli Campfire**

@@ -23,6 +23,8 @@ public class EventHandler {
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.MANGROVE_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.SPRUCE_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.WARPED_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.COBBLESTONE_CAMPFIRE.get());
+
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.ACACIA_SOUL_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.BIRCH_SOUL_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.CHERRY_SOUL_CAMPFIRE.get());
@@ -33,6 +35,8 @@ public class EventHandler {
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.MANGROVE_SOUL_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.SPRUCE_SOUL_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.WARPED_SOUL_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.COBBLESTONE_SOUL_CAMPFIRE.get());
+
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.ACACIA_COPPER_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.BIRCH_COPPER_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.CHERRY_COPPER_CAMPFIRE.get());
@@ -44,6 +48,8 @@ public class EventHandler {
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.OAK_COPPER_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.SPRUCE_COPPER_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.WARPED_COPPER_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.COBBLESTONE_COPPER_CAMPFIRE.get());
+
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.ACACIA_REDSTONE_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.BIRCH_REDSTONE_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.CHERRY_REDSTONE_CAMPFIRE.get());
@@ -55,6 +61,8 @@ public class EventHandler {
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.OAK_REDSTONE_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.SPRUCE_REDSTONE_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.WARPED_REDSTONE_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.COBBLESTONE_REDSTONE_CAMPFIRE.get());
+
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.ACACIA_LAPIS_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.BIRCH_LAPIS_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.CHERRY_LAPIS_CAMPFIRE.get());
@@ -66,6 +74,8 @@ public class EventHandler {
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.OAK_LAPIS_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.SPRUCE_LAPIS_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.WARPED_LAPIS_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.COBBLESTONE_LAPIS_CAMPFIRE.get());
+
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.ACACIA_QUARTZ_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.BIRCH_QUARTZ_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.CHERRY_QUARTZ_CAMPFIRE.get());
@@ -77,5 +87,6 @@ public class EventHandler {
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.OAK_QUARTZ_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.SPRUCE_QUARTZ_CAMPFIRE.get());
         event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.WARPED_QUARTZ_CAMPFIRE.get());
+        event.modify(BlockEntityType.CAMPFIRE, NemosCampfiresBlocks.COBBLESTONE_QUARTZ_CAMPFIRE.get());
     }
 }
