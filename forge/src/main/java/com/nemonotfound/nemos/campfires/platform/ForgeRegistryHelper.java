@@ -6,7 +6,7 @@ import com.nemonotfound.nemos.campfires.platform.services.IRegistryHelper;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -38,6 +38,6 @@ public class ForgeRegistryHelper implements IRegistryHelper {
     }
 
     private static <T> ResourceKey<T> createResourceKey(ResourceKey<Registry<T>> registryResourceKey, String id) {
-        return ResourceKey.create(registryResourceKey, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, id));
+        return ResourceKey.create(registryResourceKey, Identifier.fromNamespaceAndPath(Constants.MOD_ID, id));
     }
 }

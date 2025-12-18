@@ -2,7 +2,7 @@ package com.nemonotfound.nemos.campfires.client.data.models.model;
 
 import net.minecraft.client.data.models.model.TextureMapping;
 import net.minecraft.client.data.models.model.TextureSlot;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.level.block.Block;
 
 import static com.nemonotfound.nemos.campfires.Constants.MOD_ID;
@@ -20,8 +20,8 @@ public class CampfiresTextureMapping {
 
     public static TextureMapping cobblestoneCampfire() {
         return new TextureMapping()
-                .put(CampfiresTextureSlot.CAMPFIRE_EMBER, ResourceLocation.fromNamespaceAndPath(MOD_ID, "block/campfire_ember"))
-                .put(TextureSlot.FIRE, ResourceLocation.withDefaultNamespace("block/campfire_fire"));
+                .put(CampfiresTextureSlot.CAMPFIRE_EMBER, Identifier.fromNamespaceAndPath(MOD_ID, "block/campfire_ember"))
+                .put(TextureSlot.FIRE, Identifier.withDefaultNamespace("block/campfire_fire"));
     }
 
     public static TextureMapping copperCampfire(Block copperCampfireVariant, Block campfireVariant) {
@@ -66,8 +66,8 @@ public class CampfiresTextureMapping {
 
     public static TextureMapping cobblestoneSoulCampfire() {
         return new TextureMapping()
-                .put(CampfiresTextureSlot.CAMPFIRE_EMBER, ResourceLocation.fromNamespaceAndPath(MOD_ID, "block/soul_campfire_ember"))
-                .put(TextureSlot.FIRE, ResourceLocation.withDefaultNamespace("block/soul_campfire_fire"));
+                .put(CampfiresTextureSlot.CAMPFIRE_EMBER, Identifier.fromNamespaceAndPath(MOD_ID, "block/soul_campfire_ember"))
+                .put(TextureSlot.FIRE, Identifier.withDefaultNamespace("block/soul_campfire_fire"));
     }
 
     public static TextureMapping campfireOff(Block campfireVariant) {
@@ -79,14 +79,14 @@ public class CampfiresTextureMapping {
     private static TextureMapping customFlameCampfire(Block customFlameCampfireVariant, Block campfireVariant, String firePath) {
         return new TextureMapping()
                 .put(TextureSlot.LIT_LOG, getBlockTexture(customFlameCampfireVariant, "_log_lit"))
-                .put(TextureSlot.FIRE, ResourceLocation.fromNamespaceAndPath(MOD_ID, "block/" + firePath))
+                .put(TextureSlot.FIRE, Identifier.fromNamespaceAndPath(MOD_ID, "block/" + firePath))
                 .put(CampfiresTextureSlot.LOG, getBlockTexture(campfireVariant, "_log"))
                 .put(TextureSlot.PARTICLE, getBlockTexture(campfireVariant, "_log"));
     }
 
     private static TextureMapping customFlameCobblestoneCampfire(String campfireEmberPath, String firePath) {
         return new TextureMapping()
-                .put(CampfiresTextureSlot.CAMPFIRE_EMBER, ResourceLocation.fromNamespaceAndPath(MOD_ID, "block/" + campfireEmberPath))
-                .put(TextureSlot.FIRE, ResourceLocation.fromNamespaceAndPath(MOD_ID, "block/" + firePath));
+                .put(CampfiresTextureSlot.CAMPFIRE_EMBER, Identifier.fromNamespaceAndPath(MOD_ID, "block/" + campfireEmberPath))
+                .put(TextureSlot.FIRE, Identifier.fromNamespaceAndPath(MOD_ID, "block/" + firePath));
     }
 }

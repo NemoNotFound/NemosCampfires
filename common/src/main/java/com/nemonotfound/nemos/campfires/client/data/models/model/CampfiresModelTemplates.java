@@ -2,7 +2,7 @@ package com.nemonotfound.nemos.campfires.client.data.models.model;
 
 import net.minecraft.client.data.models.model.ModelTemplate;
 import net.minecraft.client.data.models.model.TextureSlot;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 import java.util.Optional;
 
@@ -24,6 +24,6 @@ public class CampfiresModelTemplates {
     }
 
     private static ModelTemplate create(String namespace, String path, TextureSlot... textureSlots) {
-        return new ModelTemplate(Optional.of(ResourceLocation.fromNamespaceAndPath(namespace,"block/" + path)), Optional.empty(), textureSlots);
+        return new ModelTemplate(Optional.of(Identifier.fromNamespaceAndPath(namespace,"block/" + path)), Optional.empty(), textureSlots);
     }
 }

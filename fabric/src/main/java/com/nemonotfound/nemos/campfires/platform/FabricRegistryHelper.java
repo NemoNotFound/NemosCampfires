@@ -5,7 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -39,14 +39,14 @@ public class FabricRegistryHelper implements IRegistryHelper {
     }
 
     private static <T, R extends Registry<? super T>> Supplier<T> registerSupplier(R registry, String id, Supplier<T> object) {
-        final var resourceLocation = ResourceLocation.fromNamespaceAndPath(MOD_ID, id);
+        final var resourceLocation = Identifier.fromNamespaceAndPath(MOD_ID, id);
         final var registeredObject = Registry.register((Registry<T>) registry, resourceLocation, object.get());
 
         return () -> registeredObject;
     }
 
     private static <T, R extends Registry<T>> Supplier<T> registerSupplierWithResourceKey(R registry, String id, Function<ResourceKey<T>, T> object) {
-        final var resourceLocation = ResourceLocation.fromNamespaceAndPath(MOD_ID, id);
+        final var resourceLocation = Identifier.fromNamespaceAndPath(MOD_ID, id);
         final var registeredObject = Registry.register(registry, resourceLocation, object.apply(ResourceKey.create(registry.key(), resourceLocation)));
 
         return () -> registeredObject;
