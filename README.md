@@ -1,3 +1,5 @@
+# Nemo's Campfires
+
 ## Description
 
 **Nemo's Campfires** adds a unique campfire for every log type!
