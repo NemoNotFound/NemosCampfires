@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.nemonotfound.nemos.campfires.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"CampfireRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

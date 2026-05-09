@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "soul_campfires",
+  "key": {
+    "#": "#minecraft:soul_fire_base_blocks",
+    "L": "#minecraft:mangrove_logs",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " S ",
+    "S#S",
+    "LLL"
+  ],
+  "result": {
+    "id": "nemos_campfires:mangrove_soul_campfire"
+  }
+}

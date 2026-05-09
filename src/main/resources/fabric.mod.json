@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "nemos_campfires",
+	"version": "${version}",
+	"name": "Nemo's Campfires",
+	"description": "Add more campfires to Minecraft!",
+	"authors": [
+		"Nemo"
+	],
+	"contact": {
+		"homepage": "https://nemonotfound.com",
+		"sources": "https://github.com/NemoNotFound/NemosCampfires"
+	},
+	"license": "ARR",
+	"icon": "assets/nemos_campfires/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.nemonotfound.nemos.campfires.NemosCampfires"
+		],
+		"client": [
+			"com.nemonotfound.nemos.campfires.NemosCampfiresClient"
+		],
+		"fabric-datagen": [
+			"com.nemonotfound.nemos.campfires.DataGenerator"
+		]
+	},
+	"mixins": [
+		"nemos_campfires.mixins.json",
+		{
+			"config": "nemos_campfires.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": ">=${minecraft_version}",
+		"java": ">=${java_version}",
+		"fabric-api": "*"
+	}
+}

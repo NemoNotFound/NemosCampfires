@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "lapis_campfires",
+  "key": {
+    "#": "minecraft:lapis_lazuli",
+    "L": "#minecraft:dark_oak_logs",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " S ",
+    "S#S",
+    "LLL"
+  ],
+  "result": {
+    "id": "nemos_campfires:dark_oak_lapis_campfire"
+  }
+}
