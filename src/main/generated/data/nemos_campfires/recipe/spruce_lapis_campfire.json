@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "lapis_campfires",
   "key": {
     "#": "minecraft:lapis_lazuli",

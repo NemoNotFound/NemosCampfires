@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "soul_campfires",
   "key": {
     "#": "#minecraft:soul_fire_base_blocks",
