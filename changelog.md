@@ -1,8 +1,5 @@
-# Changelog v2.4
+# Changelog v2.5
 
 ## Added
-- Cobblestone Campfire variants
-
-## Changed
-- Adjusted the color of **Redstone Campfire**
-- Adjusted the color of **Lapis Lazuli Campfire**
+- Dyeable campfire smoke
+- Dye can be removed by extinguishing the campfire

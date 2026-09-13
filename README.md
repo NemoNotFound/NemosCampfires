@@ -4,6 +4,8 @@
 
 **Nemo's Campfires** adds a unique campfire for every log type!
 
+Campfires can be dyed to change their smoke color. Extinguishing the campfire removes the dye.
+
 For more information and to see how to configure the components check the [wiki](https://wiki.nemonotfound.com/projects/minecraft-mods/nemos-campfires/general).
 
 ## Downloads

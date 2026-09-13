@@ -1,5 +1,6 @@
 package com.nemonotfound.nemos.campfires;
 
+import com.nemonotfound.nemos.campfires.data.CampfireAttachments;
 import com.nemonotfound.nemos.campfires.world.item.CampfiresCreativeModeTabs;
 import com.nemonotfound.nemos.campfires.world.item.NemosCampfiresItems;
 import com.nemonotfound.nemos.campfires.world.level.block.NemosCampfiresBlocks;
@@ -20,6 +21,7 @@ public class NemosCampfires implements ModInitializer {
         NemosCampfiresBlocks.init();
         NemosCampfiresItems.init();
         CampfiresCreativeModeTabs.init();
+        CampfireAttachments.init();
 
         BlockEntityTypes.CAMPFIRE.addValidBlock(NemosCampfiresBlocks.ACACIA_CAMPFIRE);
         BlockEntityTypes.CAMPFIRE.addValidBlock(NemosCampfiresBlocks.BIRCH_CAMPFIRE);

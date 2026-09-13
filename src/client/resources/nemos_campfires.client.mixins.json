@@ -3,7 +3,8 @@
 	"package": "com.nemonotfound.nemos.campfires.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"CampfireRendererMixin"
+		"CampfireRendererMixin",
+		"ParticleEngineMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

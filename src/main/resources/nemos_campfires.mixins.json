@@ -2,7 +2,9 @@
 	"required": true,
 	"package": "com.nemonotfound.nemos.campfires.mixin",
 	"compatibilityLevel": "JAVA_25",
-	"mixins": [],
+	"mixins": [
+		"CampfireBlockMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},
